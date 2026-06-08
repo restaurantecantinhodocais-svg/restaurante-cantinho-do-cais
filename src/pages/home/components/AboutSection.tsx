@@ -39,7 +39,7 @@ export default function AboutSection() {
           <div className="relative reveal" style={{ opacity: 0, transform: "translateY(40px)", transition: "opacity 0.8s ease, transform 0.8s ease" }}>
             <div className="relative rounded-2xl overflow-hidden h-[500px] md:h-[600px]">
               <img
-                src="https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/5c0ebdf1-4956-47ba-a672-36fc534ba1ba_sr-jorge-galeria.png?v=8302dcf8d2b859eca344fd4f36856b5f"
+                src="/sr-jorge-historia.png"
                 alt="Sala de Refeições do Cantinho do Cais"
                 className="w-full h-full object-cover object-top"
               />

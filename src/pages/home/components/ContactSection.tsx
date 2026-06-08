@@ -92,7 +92,7 @@ export default function ContactSection() {
             <div className="bg-white rounded-2xl overflow-hidden border border-stone-100 h-full min-h-[400px]">
               <iframe
                 title="Cantinho do Cais - Localização"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000!2d-25.4853!3d37.7872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb432e5a0e5e5e5e5%3A0x0!2sRua%20do%20Ramal%201%2C%209625-510%20S%C3%A3o%20Br%C3%A1s%2C%20A%C3%A7ores!5e0!3m2!1spt!2spt!4v1700000000000!5m2!1spt!2spt"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3056.974868078028!2d-25.326792684620025!3d37.79427007975825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb5e5758079549db%3A0x80373f972b2258b6!2sCantinho%20do%20Cais!5e0!3m2!1spt-PT!2spt!4v1680000000000!5m2!1spt-PT!2spt"
                 width="100%"
                 height="100%"
                 style={{ border: 0, minHeight: "400px" }}
