@@ -33,10 +33,9 @@ const translation = {
   about_stat_2_label: "Ingredientes Locais",
   about_stat_3_num: "4.5★",
   about_stat_3_label: "Avaliação Média",
-
   about_quote_text: "Uma experiência gastronómica memorável.",
 
-  // Menu
+  // Menu Categories & Prices
   menu_label: "Menu",
   menu_title_1: "Descubra os Nossos",
   menu_title_2: "Sabores Únicos",
@@ -49,6 +48,10 @@ const translation = {
   menu_cat_fish_desc: "Molho de Peixe, Polvo, Boca Negra, Abrótea, Alfonsim e muito mais, na grelha ou em pratos elaborados.",
   menu_cat_meat: "Pratos de Carne",
   menu_cat_meat_desc: "Assaduras, bife de novilho e outros pratos de carne confecionados com os melhores ingredientes açorianos.",
+  menu_cat_vegetarian: "Pratos Vegetarianos",
+  menu_cat_vegetarian_desc: "Saladas frescas, legumes da época e pratos vegetarianos confecionados com produtos locais dos Açores.",
+  menu_cat_kids: "Menu Infantil",
+  menu_cat_kids_desc: "Refeições equilibradas e saborosas, pensadas especialmente para os mais pequenos.",
   menu_cat_desserts: "Sobremesas",
   menu_cat_desserts_desc: "Queijadas, frutas tradicionais e sobremesas caseiras para terminar em beleza.",
   menu_price_starters: "€3,50",
@@ -57,33 +60,26 @@ const translation = {
   menu_price_vegetarian: "€7,50",
   menu_price_kids: "€6,50",
   menu_price_desserts: "€1,20",
-  menu_cat_vegetarian: "Pratos Vegetarianos",
-  menu_cat_vegetarian_desc: "Saladas frescas, legumes da época e pratos vegetarianos confecionados com produtos locais dos Açores.",
-  menu_cat_kids: "Menu Infantil",
-  menu_cat_kids_desc: "Refeições equilibradas e saborosas, pensadas especialmente para os mais pequenos.",
+
+  // Modals
+  modal_close: "Fechar",
+  modal_availability: "Disponibilidade sujeita à época e stock diário",
+  modal_starters_title: "As Nossas Entradas",
+  modal_fish_title: "Os Nossos Pratos de Peixe",
+  modal_meat_title: "Os Nossos Pratos de Carne",
   modal_vegetarian_title: "Os Nossos Pratos Vegetarianos",
   modal_kids_title: "O Nosso Menu Infantil",
+  modal_desserts_title: "As Nossas Sobremesas",
+
+  // All Dishes (Unified list - No duplicates)
   dish_salada_queijo_fresco: "Salada com Queijo Fresco",
   dish_omeletes: "Omeletes",
   dish_salada_feijao: "Salada de Feijão",
   dish_filetes_fritos: "Filetes Fritos",
   dish_lombinhos: "Lombinhos",
   dish_hamburguer_prato: "Hambúrguer no Prato",
-
-  // Dish notes
   dish_note_sob_consulta: "(sob consulta)",
   dish_note_por_encomenda: "(por encomenda)",
-
-  // Modal shared
-  modal_close: "Fechar",
-  modal_availability: "Disponibilidade sujeita à época e stock diário",
-
-  // Modal titles
-  modal_starters_title: "As Nossas Entradas",
-  modal_fish_title: "Os Nossos Pratos de Peixe",
-  modal_meat_title: "Os Nossos Pratos de Carne",
-
-  // Dish names — Starters
   dish_camarao: "Camarão",
   dish_favas_guisadas: "Favas Guisadas",
   dish_iscas_atum: "Iscas de Atum",
@@ -92,28 +88,18 @@ const translation = {
   dish_queijo_curado: "Queijo Curado",
   dish_queijo_fresco: "Queijo Fresco",
   dish_sopa_peixe: "Sopa de Peixe",
-
-  // Dish names — Fish
   dish_atum: "Atum",
   dish_bacalhau: "Bacalhau",
   dish_chicharros_fritos: "Chicharros Fritos",
-  dish_filetes_fritos: "Filetes Fritos",
   dish_lulas: "Lulas",
   dish_peixe_grelhado: "Peixe Grelhado",
   dish_polvo_assado: "Polvo Assado",
   dish_polvo_guisado: "Polvo Guisado",
   dish_molho_peixe: "Molho de Peixe",
-
-  // Dish names — Meat
   dish_assaduras: "Assaduras",
   dish_bifanas: "Bifanas",
   dish_bife_novilho: "Bife de Novilho",
   dish_peito_frango: "Peito de Frango",
-
-  // Modal titles — Desserts
-  modal_desserts_title: "As Nossas Sobremesas",
-
-  // Dish names — Desserts
   dish_ananas: "Ananás",
   dish_gelados: "Gelados",
   dish_queijadas: "Queijadas",
@@ -130,7 +116,7 @@ const translation = {
   testimonials_prev: "Anterior",
   testimonials_next: "Próximo",
 
-  // Reservations
+  // Reservations & Contact
   reservations_label: "Reservas",
   reservations_title: "Reserve a Sua Mesa",
   reservations_subtitle: "Escolha o dia e entre em contacto connosco",
@@ -147,8 +133,6 @@ const translation = {
   reservations_close: "Fechar",
   reservations_email_subject: "Pedido de Reserva - Cantinho do Cais",
   reservations_email_body: "Olá,\n\nGostaria de fazer uma reserva com os seguintes detalhes:\n\nDia: {date}\nHora: [preencher]\nNome da reserva: [preencher]\nNúmero de pessoas: [preencher]\nContacto: [preencher]\n\nAguardo confirmação.\n\nObrigado.\n\n---\n⚠️ Nota: Se esta reserva for feita com menos de 12 horas de antecedência, por favor ligue para o restaurante (296 442 631) para confirmar a disponibilidade.",
-
-  // Contact
   contact_label: "Contacto",
   contact_title: "Venha Visitar-nos",
   contact_subtitle: "Estamos à sua espera em São Brás, Açores",

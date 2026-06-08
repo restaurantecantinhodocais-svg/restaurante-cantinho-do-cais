@@ -32,10 +32,9 @@ const translation = {
   about_stat_2_label: "Local Ingredients",
   about_stat_3_num: "4.5★",
   about_stat_3_label: "Average Rating",
-
   about_quote_text: "A memorable gastronomic experience.",
 
-  // Menu
+  // Menu Categories & Prices
   menu_label: "Menu",
   menu_title_1: "Discover Our",
   menu_title_2: "Unique Flavours",
@@ -48,6 +47,10 @@ const translation = {
   menu_cat_fish_desc: "Fish Stew, Octopus, Boca Negra, Abrótea, Alfonsim and more, from the grill or in elaborate dishes.",
   menu_cat_meat: "Meat Dishes",
   menu_cat_meat_desc: "Roasts, veal steak and other meat dishes prepared with the finest Azorean ingredients.",
+  menu_cat_vegetarian: "Vegetarian Dishes",
+  menu_cat_vegetarian_desc: "Fresh salads, seasonal vegetables and vegetarian dishes made with local Azorean produce.",
+  menu_cat_kids: "Kids Menu",
+  menu_cat_kids_desc: "Balanced and tasty meals, specially designed for the little ones.",
   menu_cat_desserts: "Desserts",
   menu_cat_desserts_desc: "Queijadas, traditional fruits and homemade desserts to finish on a high note.",
   menu_price_starters: "€3.50",
@@ -56,29 +59,26 @@ const translation = {
   menu_price_vegetarian: "€7.50",
   menu_price_kids: "€6.50",
   menu_price_desserts: "€1.20",
-  menu_cat_vegetarian: "Vegetarian Dishes",
-  menu_cat_vegetarian_desc: "Fresh salads, seasonal vegetables and vegetarian dishes made with local Azorean produce.",
-  menu_cat_kids: "Kids Menu",
-  menu_cat_kids_desc: "Balanced and tasty meals, specially designed for the little ones.",
+
+  // Modals
+  modal_close: "Close",
+  modal_availability: "Availability subject to season and daily stock",
+  modal_starters_title: "Our Starters",
+  modal_fish_title: "Our Fish Dishes",
+  modal_meat_title: "Our Meat Dishes",
   modal_vegetarian_title: "Our Vegetarian Dishes",
   modal_kids_title: "Our Kids Menu",
+  modal_desserts_title: "Our Desserts",
+
+  // All Dishes (Unified list - No duplicates)
   dish_salada_queijo_fresco: "Salad with Fresh Cheese",
   dish_omeletes: "Omelettes",
   dish_salada_feijao: "Bean Salad",
   dish_filetes_fritos: "Fried Fish Fillets",
   dish_lombinhos: "Pork Tenderloin Fillets",
   dish_hamburguer_prato: "Plate Burger",
-
-  // Modal shared
-  modal_close: "Close",
-  modal_availability: "Availability subject to season and daily stock",
-
-  // Modal titles
-  modal_starters_title: "Our Starters",
-  modal_fish_title: "Our Fish Dishes",
-  modal_meat_title: "Our Meat Dishes",
-
-  // Dish names — Starters
+  dish_note_sob_consulta: "(upon inquiry)",
+  dish_note_por_encomenda: "(by order)",
   dish_camarao: "Shrimp",
   dish_favas_guisadas: "Stewed Broad Beans",
   dish_iscas_atum: "Tuna Strips",
@@ -87,35 +87,21 @@ const translation = {
   dish_queijo_curado: "Cured Cheese",
   dish_queijo_fresco: "Fresh Cheese",
   dish_sopa_peixe: "Fish Soup",
-
-  // Dish names — Fish
   dish_atum: "Tuna",
   dish_bacalhau: "Codfish",
   dish_chicharros_fritos: "Fried Horse Mackerel",
-  dish_filetes_fritos: "Fried Fish Fillets",
   dish_lulas: "Squid",
   dish_peixe_grelhado: "Grilled Fish",
   dish_polvo_assado: "Roasted Octopus",
   dish_polvo_guisado: "Stewed Octopus",
   dish_molho_peixe: "Fish Stew",
-
-  // Dish names — Meat
   dish_assaduras: "Roasted Ribs",
   dish_bifanas: "Pork Steaks",
   dish_bife_novilho: "Veal Steak",
   dish_peito_frango: "Chicken Breast",
-
-  // Modal titles — Desserts
-  modal_desserts_title: "Our Desserts",
-
-  // Dish names — Desserts
   dish_ananas: "Pineapple",
   dish_gelados: "Ice Creams",
   dish_queijadas: "Queijadas",
-
-  // Dish notes
-  dish_note_sob_consulta: "(upon inquiry)",
-  dish_note_por_encomenda: "(by order)",
 
   // Gallery
   gallery_label: "Gallery",
@@ -129,7 +115,7 @@ const translation = {
   testimonials_prev: "Previous",
   testimonials_next: "Next",
 
-  // Reservations
+  // Reservations & Contact
   reservations_label: "Reservations",
   reservations_title: "Book Your Table",
   reservations_subtitle: "Choose a day and get in touch with us",
@@ -146,8 +132,6 @@ const translation = {
   reservations_close: "Close",
   reservations_email_subject: "Reservation Request - Cantinho do Cais",
   reservations_email_body: "Hello,\n\nI would like to make a reservation with the following details:\n\nDate: {date}\nTime: [fill in]\nName for the reservation: [fill in]\nNumber of guests: [fill in]\nContact: [fill in]\n\nThank you and I look forward to hearing from you.\n\n---\n⚠️ Note: If this reservation is made less than 12 hours in advance, please call the restaurant (296 442 631) to confirm availability.",
-
-  // Contact
   contact_label: "Contact",
   contact_title: "Come Visit Us",
   contact_subtitle: "We are waiting for you in São Brás, Azores",
