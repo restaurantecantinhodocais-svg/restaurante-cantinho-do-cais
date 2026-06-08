@@ -59,7 +59,7 @@ export default function Navbar() {
           className="flex items-center gap-3 cursor-pointer"
         >
           <img
-            src="/logo-cantinho-do-cais_sem_fundo.png"
+            src="/logo-cantinho-do-cais-sem-fundo.png"
             alt="Cantinho do Cais"
             className="h-14 w-auto object-contain"
           />

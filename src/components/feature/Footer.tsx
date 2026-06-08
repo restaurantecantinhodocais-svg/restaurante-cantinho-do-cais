@@ -25,7 +25,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <img
-              src="/logo-cantinho-do-cais_sem_fundo.png"
+              src="/logo-cantinho-do-cais-sem-fundo.png"
               alt="Cantinho do Cais"
               className="h-48 w-auto object-contain mb-4"
             />
