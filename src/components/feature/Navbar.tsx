@@ -3,9 +3,9 @@ import { useTranslation } from "react-i18next";
 import i18n from "@/i18n";
 
 const LANGUAGES = [
-  { code: "pt", label: "PT", flag: "https://flagcdn.com/w40/pt.png" },
-  { code: "en", label: "EN", flag: "https://flagcdn.com/w40/gb.png" },
-  { code: "de", label: "DE", flag: "https://flagcdn.com/w40/de.png" },
+  { code: "pt", label: "PT", flag: "/Fotos Bandeiras Idiomas/pt.png" },
+  { code: "en", label: "EN", flag: "/Fotos Bandeiras Idiomas/gb.png" },
+  { code: "de", label: "DE", flag: "/Fotos Bandeiras Idiomas/de.png" },
 ];
 
 const NAV_LINKS = [
@@ -59,7 +59,7 @@ export default function Navbar() {
           className="flex items-center gap-3 cursor-pointer"
         >
           <img
-            src="https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/a3846e80-6165-40b5-9b1a-9dbee7b87e05_logo-cantinho-do-cais.png?v=e20251f4dd86e063340a65632a2eabe2"
+            src="/logo-cantinho-do-cais_sem_fundo.png"
             alt="Cantinho do Cais"
             className="h-14 w-auto object-contain"
           />
