@@ -10,7 +10,7 @@ export const menuCategories = [
   {
     id: "fish",
     key: "fish",
-    image: "/Fotos Menu Categorias/caldo-de-peixe-pratos-de-peixe.png",
+    image: "/Fotos Menu Categorias/molho-de-peixe-pratos-de-peixe.png",
     priceKey: "menu_price_fish",
     nameKey: "menu_cat_fish",
     descKey: "menu_cat_fish_desc",
