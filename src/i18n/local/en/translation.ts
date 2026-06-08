@@ -1,0 +1,186 @@
+const translation = {
+  // Nav
+  nav_home: "Home",
+  nav_about: "About",
+  nav_menu: "Menu",
+  nav_gallery: "Gallery",
+  nav_testimonials: "Testimonials",
+  nav_contact: "Contact",
+  nav_reserve: "Book a Table",
+
+  // Hero
+  hero_since: "Since 1994",
+  hero_title_1: "Cantinho",
+  hero_title_2: "do Cais",
+  hero_subtitle: "Azorean cuisine with authentic flavours and a family atmosphere where you feel right at home.",
+  hero_cta_menu: "View Menu",
+  hero_cta_reserve: "Book a Table",
+  hero_scroll: "Explore",
+
+  // About
+  about_label: "Our Story",
+  about_title_1: "Tradition and Passion",
+  about_title_2: "in Every Dish",
+  about_p1: "Cantinho do Cais was born from a deep connection to the sea and the Azorean fishing soul. Originally founded in Porto Formoso, next to the old pier where traditional boats docked, the restaurant earned its name from its proximity to the small local fish auction — the place where fish jumped straight from the nets into the hands of our kitchen.",
+  about_p2: "Time brought new challenges and the restaurant eventually was reborn in São Brás. Although the waters of the pier were left behind physically, the essence and the name remained intact, carrying with them the memories, respect for the sea and the tradition built over decades.",
+  about_p3: "Today, we continue to be a proudly family-run space, where simplicity, hospitality and the authentic flavours of São Miguel Island come together at the table. Every day, Mr. Jorge keeps alive the spirit of buying fresh fish, visiting the market to personally select the best specimens that arrive in our kitchen.",
+  about_p4: "Specialists in fish and regional cuisine, we honour the Azorean palate through our famous Fish Soup, the traditional Fish Stew and delicacies prepared with species from our coast — such as Cântaro, Boca Negra, Abrótea, Alfonsim, Tuna, Octopus, among other fish and seafood selected daily. Whether in grilled dishes that respect the freshness of the sea or in more elaborate Azorean recipes, each dish celebrates the best of the island. Between timeless secrets and homemade desserts, we open our doors so that every customer truly feels at home.",
+  about_cta: "Meet Our Team",
+  about_stat_1_num: "30+",
+  about_stat_1_label: "Years of Experience",
+  about_stat_2_num: "90%+",
+  about_stat_2_label: "Local Ingredients",
+  about_stat_3_num: "4.5★",
+  about_stat_3_label: "Average Rating",
+
+  about_quote_text: "A memorable gastronomic experience.",
+
+  // Menu
+  menu_label: "Menu",
+  menu_title_1: "Discover Our",
+  menu_title_2: "Unique Flavours",
+  menu_subtitle: "A carefully curated selection of dishes celebrating the richness of the Azores",
+  menu_from: "From",
+  menu_view: "View Dishes",
+  menu_cat_starters: "Starters",
+  menu_cat_starters_desc: "Limpets, mussels, shrimp, fish soup and island snacks to start with flavour.",
+  menu_cat_fish: "Fish Dishes",
+  menu_cat_fish_desc: "Fish Stew, Octopus, Boca Negra, Abrótea, Alfonsim and more, from the grill or in elaborate dishes.",
+  menu_cat_meat: "Meat Dishes",
+  menu_cat_meat_desc: "Roasts, veal steak and other meat dishes prepared with the finest Azorean ingredients.",
+  menu_cat_desserts: "Desserts",
+  menu_cat_desserts_desc: "Queijadas, traditional fruits and homemade desserts to finish on a high note.",
+  menu_price_starters: "€3.50",
+  menu_price_fish: "€10.00",
+  menu_price_meat: "€10.00",
+  menu_price_vegetarian: "€7.50",
+  menu_price_kids: "€6.50",
+  menu_price_desserts: "€1.20",
+  menu_cat_vegetarian: "Vegetarian Dishes",
+  menu_cat_vegetarian_desc: "Fresh salads, seasonal vegetables and vegetarian dishes made with local Azorean produce.",
+  menu_cat_kids: "Kids Menu",
+  menu_cat_kids_desc: "Balanced and tasty meals, specially designed for the little ones.",
+  modal_vegetarian_title: "Our Vegetarian Dishes",
+  modal_kids_title: "Our Kids Menu",
+  dish_salada_queijo_fresco: "Salad with Fresh Cheese",
+  dish_omeletes: "Omelettes",
+  dish_salada_feijao: "Bean Salad",
+  dish_filetes_fritos: "Fried Fish Fillets",
+  dish_lombinhos: "Pork Tenderloin Fillets",
+  dish_hamburguer_prato: "Plate Burger",
+
+  // Modal shared
+  modal_close: "Close",
+  modal_availability: "Availability subject to season and daily stock",
+
+  // Modal titles
+  modal_starters_title: "Our Starters",
+  modal_fish_title: "Our Fish Dishes",
+  modal_meat_title: "Our Meat Dishes",
+
+  // Dish names — Starters
+  dish_camarao: "Shrimp",
+  dish_favas_guisadas: "Stewed Broad Beans",
+  dish_iscas_atum: "Tuna Strips",
+  dish_lapas_grelhadas: "Grilled Limpets",
+  dish_mexilhoes_grelhados: "Grilled Mussels",
+  dish_queijo_curado: "Cured Cheese",
+  dish_queijo_fresco: "Fresh Cheese",
+  dish_sopa_peixe: "Fish Soup",
+
+  // Dish names — Fish
+  dish_atum: "Tuna",
+  dish_bacalhau: "Codfish",
+  dish_chicharros_fritos: "Fried Horse Mackerel",
+  dish_filetes_fritos: "Fried Fish Fillets",
+  dish_lulas: "Squid",
+  dish_peixe_grelhado: "Grilled Fish",
+  dish_polvo_assado: "Roasted Octopus",
+  dish_polvo_guisado: "Stewed Octopus",
+  dish_molho_peixe: "Fish Stew",
+
+  // Dish names — Meat
+  dish_assaduras: "Roasted Ribs",
+  dish_bifanas: "Pork Steaks",
+  dish_bife_novilho: "Veal Steak",
+  dish_peito_frango: "Chicken Breast",
+
+  // Modal titles — Desserts
+  modal_desserts_title: "Our Desserts",
+
+  // Dish names — Desserts
+  dish_ananas: "Pineapple",
+  dish_gelados: "Ice Creams",
+  dish_queijadas: "Queijadas",
+
+  // Dish notes
+  dish_note_sob_consulta: "(upon inquiry)",
+  dish_note_por_encomenda: "(by order)",
+
+  // Gallery
+  gallery_label: "Gallery",
+  gallery_title: "Unforgettable Moments",
+  gallery_subtitle: "A visual journey through our kitchen, atmosphere and flavours",
+
+  // Testimonials
+  testimonials_label: "Testimonials",
+  testimonials_title_1: "What Our",
+  testimonials_title_2: "Customers Say",
+  testimonials_prev: "Previous",
+  testimonials_next: "Next",
+
+  // Reservations
+  reservations_label: "Reservations",
+  reservations_title: "Book Your Table",
+  reservations_subtitle: "Choose a day and get in touch with us",
+  reservations_prev_month: "Previous month",
+  reservations_next_month: "Next month",
+  reservations_modal_title: "Reservation for",
+  reservations_modal_subtitle: "How would you like to make your reservation?",
+  reservations_phone_title: "Book by Phone",
+  reservations_phone_desc: "During the call, please provide the day, desired time, reservation name, number of guests and contact details.",
+  reservations_phone_cta: "Call Now",
+  reservations_email_title: "Request by Email",
+  reservations_email_desc: "We will open a pre-filled email with the selected day. Complete the remaining details.",
+  reservations_email_cta: "Send Email",
+  reservations_close: "Close",
+  reservations_email_subject: "Reservation Request - Cantinho do Cais",
+  reservations_email_body: "Hello,\n\nI would like to make a reservation with the following details:\n\nDate: {date}\nTime: [fill in]\nName for the reservation: [fill in]\nNumber of guests: [fill in]\nContact: [fill in]\n\nThank you and I look forward to hearing from you.\n\n---\n⚠️ Note: If this reservation is made less than 12 hours in advance, please call the restaurant (296 442 631) to confirm availability.",
+
+  // Contact
+  contact_label: "Contact",
+  contact_title: "Come Visit Us",
+  contact_subtitle: "We are waiting for you in São Brás, Azores",
+  contact_address_label: "Address",
+  contact_address: "Rua do Ramal 1, 9625-510 São Brás",
+  contact_phone_label: "Phone",
+  contact_phone: "296 442 631",
+  contact_hours_label: "Opening Hours",
+  contact_hours_1: "Monday, Tuesday, Thursday to Sunday: 12:00 – 22:00",
+  contact_hours_2: "Wednesday: Closed",
+  contact_form_title: "Send Us a Message",
+  contact_form_name: "Name",
+  contact_form_email: "Email",
+  contact_form_message: "Message",
+  contact_form_submit: "Send Message",
+  contact_form_success: "Message sent successfully! We will be in touch shortly.",
+  contact_form_error: "An error occurred. Please try again.",
+  contact_call_cta: "Call Now",
+
+  // Footer
+  footer_tagline: "Azorean cuisine with authentic flavours in São Brás",
+  footer_nav_title: "Navigation",
+  footer_info_title: "Information",
+  footer_legal_title: "Legal",
+  footer_privacy: "Privacy Policy",
+  footer_terms: "Terms of Use",
+  footer_copyright: "© 2026 Cantinho do Cais. All rights reserved.",
+  footer_newsletter_title: "News & Promotions",
+  footer_newsletter_desc: "Receive our latest news and special promotions",
+  footer_newsletter_placeholder: "Your email",
+  footer_newsletter_cta: "Subscribe",
+  footer_made_with: "Made with",
+  footer_in: "in the Azores",
+};
+
+export default translation;

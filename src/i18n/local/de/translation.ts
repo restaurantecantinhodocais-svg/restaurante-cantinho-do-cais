@@ -1,0 +1,186 @@
+const translation = {
+  // Nav
+  nav_home: "Startseite",
+  nav_about: "Über uns",
+  nav_menu: "Speisekarte",
+  nav_gallery: "Galerie",
+  nav_testimonials: "Bewertungen",
+  nav_contact: "Kontakt",
+  nav_reserve: "Tisch reservieren",
+
+  // Hero
+  hero_since: "Seit 1994",
+  hero_title_1: "Cantinho",
+  hero_title_2: "do Cais",
+  hero_subtitle: "Azoreanische Küche mit authentischen Aromen und familiärer Atmosphäre, in der man sich wie zu Hause fühlt.",
+  hero_cta_menu: "Speisekarte",
+  hero_cta_reserve: "Tisch reservieren",
+  hero_scroll: "Entdecken",
+
+  // About
+  about_label: "Unsere Geschichte",
+  about_title_1: "Tradition und Leidenschaft",
+  about_title_2: "in jedem Gericht",
+  about_p1: "Cantinho do Cais entstand aus einer tiefen Verbundenheit mit dem Meer und der azoreanischen Fischereitradition. Ursprünglich wurde das Restaurant in Porto Formoso gegründet, direkt neben dem alten Kai, an dem die traditionellen Fischerboote anlegten. Seinen Namen verdankt das Restaurant der Nähe zur kleinen örtlichen Fischauktion — jenem Ort, an dem der frische Fisch direkt aus den Netzen in unsere Küche gelangte.",
+  about_p2: "Mit der Zeit kamen neue Herausforderungen und das Restaurant fand in São Brás ein neues Zuhause. Auch wenn der alte Kai heute hinter uns liegt, blieben die Seele, der Name und die Tradition über all die Jahre hinweg erhalten — geprägt von Erinnerungen, Respekt vor dem Meer und der Leidenschaft für die azoreanische Küche.",
+  about_p3: "Bis heute sind wir ein stolz familiengeführtes Restaurant, in dem Einfachheit, Gastfreundschaft und die authentischen Aromen der Insel São Miguel zusammenkommen. Jeden Tag hält Herr Jorge den Geist des frischen Fischkaufs lebendig und besucht persönlich den Markt, um die besten Exemplare auszuwählen, die in unsere Küche gelangen.",
+  about_p4: "Als Spezialisten für Fisch und regionale Küche ehren wir die azoreanische Gastronomie mit unserer berühmten Fischsuppe, dem traditionellen Fischeintopf und Spezialitäten aus den Gewässern unserer Küste — darunter Cântaro, Boca Negra, Abrótea, Alfonsim, Thunfisch, Oktopus, sowie andere täglich frisch ausgewählte Fisch- und Meeresfrüchte. Ob frisch gegrillte Fischgerichte oder aufwendigere Rezepte der azoreanischen Küche — jedes Gericht feiert den authentischen Geschmack der Insel. Zwischen traditionellen Geheimnissen und hausgemachten Desserts öffnen wir unsere Türen, damit sich jeder Gast wirklich wie zu Hause fühlt.",
+  about_cta: "Unser Team kennenlernen",
+  about_stat_1_num: "30+",
+  about_stat_1_label: "Jahre Erfahrung",
+  about_stat_2_num: "90%+",
+  about_stat_2_label: "Lokale Zutaten",
+  about_stat_3_num: "4.5★",
+  about_stat_3_label: "Durchschnittsbewertung",
+
+  about_quote_text: "Ein unvergessliches kulinarisches Erlebnis.",
+
+  // Menu
+  menu_label: "Speisekarte",
+  menu_title_1: "Entdecken Sie unsere",
+  menu_title_2: "einzigartigen Aromen",
+  menu_subtitle: "Eine sorgfältig zusammengestellte Auswahl an Gerichten, die den Reichtum der Azoren feiern",
+  menu_from: "Ab",
+  menu_view: "Gerichte ansehen",
+  menu_cat_starters: "Vorspeisen",
+  menu_cat_starters_desc: "Napfschnecken, Muscheln, Garnelen, Fischsuppe und Insel-Snacks für einen geschmackvollen Einstieg.",
+  menu_cat_fish: "Fischgerichte",
+  menu_cat_fish_desc: "Fischeintopf, Tintenfisch, Boca Negra, Abrótea, Alfonsim und mehr, vom Grill oder in aufwendigen Gerichten.",
+  menu_cat_meat: "Fleischgerichte",
+  menu_cat_meat_desc: "Braten, Kalbssteak und andere Fleischgerichte mit den besten azoreanischen Zutaten zubereitet.",
+  menu_cat_desserts: "Desserts",
+  menu_cat_desserts_desc: "Queijadas, traditionelle Früchte und hausgemachte Desserts für einen krönenden Abschluss.",
+  menu_price_starters: "€3,50",
+  menu_price_fish: "€10,00",
+  menu_price_meat: "€10,00",
+  menu_price_vegetarian: "€7,50",
+  menu_price_kids: "€6,50",
+  menu_price_desserts: "€1,20",
+  menu_cat_vegetarian: "Vegetarische Gerichte",
+  menu_cat_vegetarian_desc: "Frische Salate, saisonales Gem\u00fcse und vegetarische Gerichte aus lokalen azoreanischen Produkten.",
+  menu_cat_kids: "Kindermen\u00fc",
+  menu_cat_kids_desc: "Ausgewogene und schmackhafte Mahlzeiten, speziell f\u00fcr die Kleinen entworfen.",
+  modal_vegetarian_title: "Unsere Vegetarischen Gerichte",
+  modal_kids_title: "Unser Kindermen\u00fc",
+  dish_salada_queijo_fresco: "Salat mit Frischk\u00e4se",
+  dish_omeletes: "Omeletts",
+  dish_salada_feijao: "Bohnensalat",
+  dish_filetes_fritos: "Gebratene Fischfilets",
+  dish_lombinhos: "Schweinefilet",
+  dish_hamburguer_prato: "Hamburger auf dem Teller",
+
+  // Dish notes
+  dish_note_sob_consulta: "(auf Anfrage)",
+  dish_note_por_encomenda: "(auf Bestellung)",
+
+  // Modal shared
+  modal_close: "Schließen",
+  modal_availability: "Verfügbarkeit je nach Saison und Tagesvorrat",
+
+  // Modal titles
+  modal_starters_title: "Unsere Vorspeisen",
+  modal_fish_title: "Unsere Fischgerichte",
+  modal_meat_title: "Unsere Fleischgerichte",
+
+  // Dish names — Starters
+  dish_camarao: "Garnelen",
+  dish_favas_guisadas: "Geschmorte Saubohnen",
+  dish_iscas_atum: "Thunfischstreifen",
+  dish_lapas_grelhadas: "Gegrillte Napfschnecken",
+  dish_mexilhoes_grelhados: "Gegrillte Muscheln",
+  dish_queijo_curado: "Gereifter Käse",
+  dish_queijo_fresco: "Frischkäse",
+  dish_sopa_peixe: "Fischsuppe",
+
+  // Dish names — Fish
+  dish_atum: "Thunfisch",
+  dish_bacalhau: "Kabeljau",
+  dish_chicharros_fritos: "Gebratene Stöcker",
+  dish_filetes_fritos: "Gebratene Fischfilets",
+  dish_lulas: "Tintenfisch",
+  dish_peixe_grelhado: "Gegrillter Fisch",
+  dish_polvo_assado: "Gebratener Oktopus",
+  dish_polvo_guisado: "Geschmorter Oktopus",
+  dish_molho_peixe: "Fischeintopf",
+
+  // Dish names — Meat
+  dish_assaduras: "Gebratene Rippchen",
+  dish_bifanas: "Schweineschnitzel",
+  dish_bife_novilho: "Kalbssteak",
+  dish_peito_frango: "Hähnchenbrust",
+
+  // Modal titles — Desserts
+  modal_desserts_title: "Unsere Desserts",
+
+  // Dish names — Desserts
+  dish_ananas: "Ananas",
+  dish_gelados: "Eiscremes",
+  dish_queijadas: "Queijadas",
+
+  // Gallery
+  gallery_label: "Galerie",
+  gallery_title: "Unvergessliche Momente",
+  gallery_subtitle: "Eine visuelle Reise durch unsere Küche, Atmosphäre und Aromen",
+
+  // Testimonials
+  testimonials_label: "Bewertungen",
+  testimonials_title_1: "Was unsere",
+  testimonials_title_2: "Kunden sagen",
+  testimonials_prev: "Zurück",
+  testimonials_next: "Weiter",
+
+  // Reservations
+  reservations_label: "Reservierungen",
+  reservations_title: "Ihren Tisch reservieren",
+  reservations_subtitle: "Wählen Sie einen Tag und nehmen Sie Kontakt mit uns auf",
+  reservations_prev_month: "Vorheriger Monat",
+  reservations_next_month: "Nächster Monat",
+  reservations_modal_title: "Reservierung für",
+  reservations_modal_subtitle: "Wie möchten Sie Ihre Reservierung vornehmen?",
+  reservations_phone_title: "Telefonisch reservieren",
+  reservations_phone_desc: "Bitte geben Sie während des Anrufs den Tag, die gewünschte Uhrzeit, den Reservierungsnamen, die Personenanzahl und Kontaktdaten an.",
+  reservations_phone_cta: "Jetzt anrufen",
+  reservations_email_title: "Per E-Mail anfragen",
+  reservations_email_desc: "Wir öffnen eine vorausgefüllte E-Mail mit dem ausgewählten Tag. Ergänzen Sie die restlichen Details.",
+  reservations_email_cta: "E-Mail senden",
+  reservations_close: "Schließen",
+  reservations_email_subject: "Reservierungsanfrage - Cantinho do Cais",
+  reservations_email_body: "Hallo,\n\nIch möchte eine Reservierung mit folgenden Details vornehmen:\n\nDatum: {date}\nUhrzeit: [ausfüllen]\nName für die Reservierung: [ausfüllen]\nAnzahl der Personen: [ausfüllen]\nKontakt: [ausfüllen]\n\nVielen Dank und ich freue mich auf Ihre Rückmeldung.\n\n---\n⚠️ Hinweis: Wenn diese Reservierung weniger als 12 Stunden im Voraus vorgenommen wird, rufen Sie bitte das Restaurant an (296 442 631), um die Verfügbarkeit zu bestätigen.",
+
+  // Contact
+  contact_label: "Kontakt",
+  contact_title: "Besuchen Sie uns",
+  contact_subtitle: "Wir erwarten Sie in São Brás, Azoren",
+  contact_address_label: "Adresse",
+  contact_address: "Rua do Ramal 1, 9625-510 São Brás",
+  contact_phone_label: "Telefon",
+  contact_phone: "296 442 631",
+  contact_hours_label: "Öffnungszeiten",
+  contact_hours_1: "Montag, Dienstag, Donnerstag bis Sonntag: 12:00 – 22:00 Uhr",
+  contact_hours_2: "Mittwoch: Geschlossen",
+  contact_form_title: "Senden Sie uns eine Nachricht",
+  contact_form_name: "Name",
+  contact_form_email: "E-Mail",
+  contact_form_message: "Nachricht",
+  contact_form_submit: "Nachricht senden",
+  contact_form_success: "Nachricht erfolgreich gesendet! Wir melden uns in Kürze.",
+  contact_form_error: "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
+  contact_call_cta: "Jetzt anrufen",
+
+  // Footer
+  footer_tagline: "Azoreanische Küche mit authentischen Aromen in São Brás",
+  footer_nav_title: "Navigation",
+  footer_info_title: "Informationen",
+  footer_legal_title: "Rechtliches",
+  footer_privacy: "Datenschutzrichtlinie",
+  footer_terms: "Nutzungsbedingungen",
+  footer_copyright: "© 2026 Cantinho do Cais. Alle Rechte vorbehalten.",
+  footer_newsletter_title: "Neuigkeiten & Angebote",
+  footer_newsletter_desc: "Erhalten Sie unsere neuesten Nachrichten und Sonderangebote",
+  footer_newsletter_placeholder: "Ihre E-Mail",
+  footer_newsletter_cta: "Abonnieren",
+  footer_made_with: "Gemacht mit",
+  footer_in: "auf den Azoren",
+};
+
+export default translation;

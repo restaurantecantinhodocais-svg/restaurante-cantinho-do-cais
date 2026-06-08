@@ -1,0 +1,187 @@
+const translation = {
+  // Nav
+  nav_home: "Início",
+  nav_about: "Sobre",
+  nav_menu: "Menu",
+  nav_gallery: "Galeria",
+  nav_testimonials: "Testemunhos",
+  nav_contact: "Contacto",
+  nav_reserve: "Reservar Mesa",
+
+  // Hero
+  hero_since: "Desde 1994",
+  hero_title_1: "Cantinho",
+  hero_title_2: "do Cais",
+  hero_subtitle: "Cozinha açoriana de sabores autênticos e um ambiente familiar onde se sente em casa.",
+  hero_cta_menu: "Ver Menu",
+  hero_cta_reserve: "Reservar Mesa",
+  hero_scroll: "Explorar",
+
+  // About
+  about_label: "A Nossa História",
+  about_title_1: "Tradição e Paixão",
+  about_title_2: "em Cada Prato",
+  about_highlight: "É obrigatório provar a deliciosa sopa de peixe.",
+  about_p1: "O Cantinho do Cais nasceu da profunda ligação ao mar e à alma piscatória açoriana. Originalmente fundado no Porto Formoso, junto ao antigo cais onde os barcos tradicionais atracavam, o restaurante ganhou o seu nome pela proximidade à pequena lota local — o sítio onde o peixe saltava diretamente das redes para as mãos da nossa cozinha.",
+  about_p2: "O tempo trouxe novos desafios e o restaurante acabou por renascer em São Brás. Embora as águas do cais tenham ficado fisicamente para trás, a essência e o nome permaneceram intactos, carregando consigo as memórias, o respeito pelo mar e a tradição construída ao longo de décadas.",
+  about_p3: "Hoje, continuamos a ser um espaço de gerência orgulhosamente familiar, onde a simplicidade, a hospitalidade e os sabores autênticos da ilha de São Miguel se sentam à mesa. Diariamente, o Sr. Jorge mantém vivo o espírito da compra de peixe fresco, visitando o mercado para selecionar, a dedo, os melhores exemplares que chegam à nossa cozinha.",
+  about_p4: "Especialistas em peixe e cozinha regional, honramos o paladar açoriano através da nossa famosa Sopa de Peixe, do tradicional Molho de Peixe e de iguarias preparadas com espécies da nossa costa — como o Cântaro, a Boca Negra, a Abrótea, o Alfonsim, o Atum, o Polvo, entre outros peixes e mariscos selecionados diariamente. Seja em grelhados que respeitam a frescura do mar ou em pratos mais elaborados da cozinha açoriana, cada receita celebra o melhor da ilha. Entre segredos de sempre e sobremesas caseiras, abrimos as nossas portas para que cada cliente se sinta, verdadeiramente, em casa.",
+  about_cta: "Conheça a Nossa Equipa",
+  about_stat_1_num: "30+",
+  about_stat_1_label: "Anos de Experiência",
+  about_stat_2_num: "90%+",
+  about_stat_2_label: "Ingredientes Locais",
+  about_stat_3_num: "4.5★",
+  about_stat_3_label: "Avaliação Média",
+
+  about_quote_text: "Uma experiência gastronómica memorável.",
+
+  // Menu
+  menu_label: "Menu",
+  menu_title_1: "Descubra os Nossos",
+  menu_title_2: "Sabores Únicos",
+  menu_subtitle: "Uma seleção cuidada de pratos que celebram a riqueza dos Açores",
+  menu_from: "A partir de",
+  menu_view: "Ver Pratos",
+  menu_cat_starters: "Entradas",
+  menu_cat_starters_desc: "Lapas, mexilhões, camarão, sopa de peixe e petiscos da ilha para começar com sabor.",
+  menu_cat_fish: "Pratos de Peixe",
+  menu_cat_fish_desc: "Molho de Peixe, Polvo, Boca Negra, Abrótea, Alfonsim e muito mais, na grelha ou em pratos elaborados.",
+  menu_cat_meat: "Pratos de Carne",
+  menu_cat_meat_desc: "Assaduras, bife de novilho e outros pratos de carne confecionados com os melhores ingredientes açorianos.",
+  menu_cat_desserts: "Sobremesas",
+  menu_cat_desserts_desc: "Queijadas, frutas tradicionais e sobremesas caseiras para terminar em beleza.",
+  menu_price_starters: "€3,50",
+  menu_price_fish: "€10,00",
+  menu_price_meat: "€10,00",
+  menu_price_vegetarian: "€7,50",
+  menu_price_kids: "€6,50",
+  menu_price_desserts: "€1,20",
+  menu_cat_vegetarian: "Pratos Vegetarianos",
+  menu_cat_vegetarian_desc: "Saladas frescas, legumes da época e pratos vegetarianos confecionados com produtos locais dos Açores.",
+  menu_cat_kids: "Menu Infantil",
+  menu_cat_kids_desc: "Refeições equilibradas e saborosas, pensadas especialmente para os mais pequenos.",
+  modal_vegetarian_title: "Os Nossos Pratos Vegetarianos",
+  modal_kids_title: "O Nosso Menu Infantil",
+  dish_salada_queijo_fresco: "Salada com Queijo Fresco",
+  dish_omeletes: "Omeletes",
+  dish_salada_feijao: "Salada de Feijão",
+  dish_filetes_fritos: "Filetes Fritos",
+  dish_lombinhos: "Lombinhos",
+  dish_hamburguer_prato: "Hambúrguer no Prato",
+
+  // Dish notes
+  dish_note_sob_consulta: "(sob consulta)",
+  dish_note_por_encomenda: "(por encomenda)",
+
+  // Modal shared
+  modal_close: "Fechar",
+  modal_availability: "Disponibilidade sujeita à época e stock diário",
+
+  // Modal titles
+  modal_starters_title: "As Nossas Entradas",
+  modal_fish_title: "Os Nossos Pratos de Peixe",
+  modal_meat_title: "Os Nossos Pratos de Carne",
+
+  // Dish names — Starters
+  dish_camarao: "Camarão",
+  dish_favas_guisadas: "Favas Guisadas",
+  dish_iscas_atum: "Iscas de Atum",
+  dish_lapas_grelhadas: "Lapas Grelhadas",
+  dish_mexilhoes_grelhados: "Mexilhões Grelhados",
+  dish_queijo_curado: "Queijo Curado",
+  dish_queijo_fresco: "Queijo Fresco",
+  dish_sopa_peixe: "Sopa de Peixe",
+
+  // Dish names — Fish
+  dish_atum: "Atum",
+  dish_bacalhau: "Bacalhau",
+  dish_chicharros_fritos: "Chicharros Fritos",
+  dish_filetes_fritos: "Filetes Fritos",
+  dish_lulas: "Lulas",
+  dish_peixe_grelhado: "Peixe Grelhado",
+  dish_polvo_assado: "Polvo Assado",
+  dish_polvo_guisado: "Polvo Guisado",
+  dish_molho_peixe: "Molho de Peixe",
+
+  // Dish names — Meat
+  dish_assaduras: "Assaduras",
+  dish_bifanas: "Bifanas",
+  dish_bife_novilho: "Bife de Novilho",
+  dish_peito_frango: "Peito de Frango",
+
+  // Modal titles — Desserts
+  modal_desserts_title: "As Nossas Sobremesas",
+
+  // Dish names — Desserts
+  dish_ananas: "Ananás",
+  dish_gelados: "Gelados",
+  dish_queijadas: "Queijadas",
+
+  // Gallery
+  gallery_label: "Galeria",
+  gallery_title: "Momentos Inesquecíveis",
+  gallery_subtitle: "Uma viagem visual pela nossa cozinha, ambiente e sabores",
+
+  // Testimonials
+  testimonials_label: "Testemunhos",
+  testimonials_title_1: "O Que Dizem os",
+  testimonials_title_2: "Nossos Clientes",
+  testimonials_prev: "Anterior",
+  testimonials_next: "Próximo",
+
+  // Reservations
+  reservations_label: "Reservas",
+  reservations_title: "Reserve a Sua Mesa",
+  reservations_subtitle: "Escolha o dia e entre em contacto connosco",
+  reservations_prev_month: "Mês anterior",
+  reservations_next_month: "Próximo mês",
+  reservations_modal_title: "Reserva para",
+  reservations_modal_subtitle: "Como prefere fazer a sua reserva?",
+  reservations_phone_title: "Reservar por Telefone",
+  reservations_phone_desc: "Durante a chamada, indique o dia, hora pretendida, nome da reserva, número de pessoas e contacto.",
+  reservations_phone_cta: "Ligar Agora",
+  reservations_email_title: "Pedir Reserva por Email",
+  reservations_email_desc: "Enviaremos um email pré-preenchido com o dia selecionado. Complete os restantes detalhes.",
+  reservations_email_cta: "Enviar Email",
+  reservations_close: "Fechar",
+  reservations_email_subject: "Pedido de Reserva - Cantinho do Cais",
+  reservations_email_body: "Olá,\n\nGostaria de fazer uma reserva com os seguintes detalhes:\n\nDia: {date}\nHora: [preencher]\nNome da reserva: [preencher]\nNúmero de pessoas: [preencher]\nContacto: [preencher]\n\nAguardo confirmação.\n\nObrigado.\n\n---\n⚠️ Nota: Se esta reserva for feita com menos de 12 horas de antecedência, por favor ligue para o restaurante (296 442 631) para confirmar a disponibilidade.",
+
+  // Contact
+  contact_label: "Contacto",
+  contact_title: "Venha Visitar-nos",
+  contact_subtitle: "Estamos à sua espera em São Brás, Açores",
+  contact_address_label: "Morada",
+  contact_address: "Rua do Ramal 1, 9625-510 São Brás",
+  contact_phone_label: "Telefone",
+  contact_phone: "296 442 631",
+  contact_hours_label: "Horário",
+  contact_hours_1: "Segunda, Terça, Quinta a Domingo: 12h00 – 22h00",
+  contact_hours_2: "Quarta-feira: Encerrado",
+  contact_form_title: "Envie-nos uma Mensagem",
+  contact_form_name: "Nome",
+  contact_form_email: "Email",
+  contact_form_message: "Mensagem",
+  contact_form_submit: "Enviar Mensagem",
+  contact_form_success: "Mensagem enviada com sucesso! Entraremos em contacto brevemente.",
+  contact_form_error: "Ocorreu um erro. Por favor tente novamente.",
+  contact_call_cta: "Ligar Agora",
+
+  // Footer
+  footer_tagline: "Cozinha açoriana de sabores autênticos em São Brás",
+  footer_nav_title: "Navegação",
+  footer_info_title: "Informações",
+  footer_legal_title: "Legal",
+  footer_privacy: "Política de Privacidade",
+  footer_terms: "Termos de Uso",
+  footer_copyright: "© 2026 Cantinho do Cais. Todos os direitos reservados.",
+  footer_newsletter_title: "Novidades e Promoções",
+  footer_newsletter_desc: "Receba as nossas novidades e promoções especiais",
+  footer_newsletter_placeholder: "O seu email",
+  footer_newsletter_cta: "Subscrever",
+  footer_made_with: "Feito com",
+  footer_in: "nos Açores",
+};
+
+export default translation;
