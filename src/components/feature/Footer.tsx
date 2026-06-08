@@ -25,7 +25,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <img
-              src="https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/a3846e80-6165-40b5-9b1a-9dbee7b87e05_logo-cantinho-do-cais.png?v=e20251f4dd86e063340a65632a2eabe2"
+              src="/logo-cantinho-do-cais_sem_fundo.png"
               alt="Cantinho do Cais"
               className="h-48 w-auto object-contain mb-4"
             />
