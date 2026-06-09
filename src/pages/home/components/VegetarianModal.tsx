@@ -15,7 +15,7 @@ const vegetarianDishes = [
   {
     id: "salada-queijo-fresco",
     nameKey: "dish_salada_queijo_fresco",
-    image: "/fotos-vegetariano/salada-de-queijo-fresco-pratos-vegetarianos.png",
+    image: "/fotos-vegetariano/salada-com-queijo-fresco-pratos-vegetarianos.png",
   },
 ];
 
