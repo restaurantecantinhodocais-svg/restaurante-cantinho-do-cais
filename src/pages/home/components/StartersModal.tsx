@@ -5,42 +5,42 @@ const starters = [
   {
     id: "camarao",
     nameKey: "dish_camarao",
-    image: "https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/140877c2-6537-4bf7-8f3a-7a599d361a13_1780830613395.png?v=749eacdf2943bbf9447c670fc4e19f29",
+    image: "/fotos-entradas/camarao-entradas.png"
   },
   {
     id: "favas-guisadas",
     nameKey: "dish_favas_guisadas",
-    image: "https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/7c635e18-7db8-4d88-97e2-ffbd00b3d511_1780830727593.png?v=fa5718db7219efba0eda3276e78388b7",
+    image: "/fotos-entradas/favas-entradas.png"
   },
   {
-    id: "iscas-de-aturn",
+    id: "iscas-de-atum",
     nameKey: "dish_iscas_atum",
-    image: "https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/187e7e08-5e57-4aab-ae92-57a826d4db07_IMG_20260605_224409.png?v=5fe462ec526c794d102d89c8aa921a84",
+    image: "/fotos-entradas/iscas-de-atum-entradas.png",
   },
   {
     id: "lapas-grelhadas",
     nameKey: "dish_lapas_grelhadas",
-    image: "https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/d29a1e40-e8ae-4ee3-8403-25712066371b_1780833731713.png?v=129b720fe175a07c29ebb02820c37bc3",
+    image: "/fotos-entradas/lapas-entradas.png",
   },
   {
     id: "mexilhoes-grelhados",
     nameKey: "dish_mexilhoes_grelhados",
-    image: "https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/c1c7c2a2-531c-4f92-9f6e-6fdbb1fd205b_1780769623691.png?v=a0d41805f21493ac156fbc2da011cbf2",
+    image: "/fotos-entradas/mexilhoes-entradas.png",
   },
   {
     id: "queijo-curado",
     nameKey: "dish_queijo_curado",
-    image: "https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/fe3be4a7-df5c-48da-a626-f7f15bd412cf_1780834028018.png?v=1fbffec8ef565b3769cd68f04f5f40db",
+    image: "/fotos-entradas/queijo-curado-entradas.png",
   },
   {
     id: "queijo-fresco",
     nameKey: "dish_queijo_fresco",
-    image: "https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/cb28b13c-e780-4be8-836c-0eb7b65ccb49_1780833608655.png?v=6e56e5f65ed631d02dcfcb1ad27bd1ee",
+    image: "/fotos-entradas/queijo-fresco-entradas.png",
   },
   {
     id: "sopa-de-peixe",
     nameKey: "dish_sopa_peixe",
-    image: "https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/7b7a843f-c74b-449f-acce-71332d5cf893_1780833157765.png?v=950f90f4b027282bd3bf88d524606c4e",
+    image: "/fotos-entradas/sopa-de-peixe-entradas.png",
   },
 ];
 
@@ -138,7 +138,7 @@ export default function StartersModal({ isOpen, onClose, offset }: StartersModal
                   </div>
                   <div className="p-4">
                     <h3 className="font-serif text-lg text-stone-900 font-semibold text-center">{index + offset + 1} - {t(item.nameKey)}</h3>
-                    {item.id === "iscas-de-aturn" && (
+                    {item.id === "iscas-de-atum" && (
                       <p className="text-stone-400 text-xs mt-1 text-center">{t("dish_note_sob_consulta")}</p>
                     )}
                   </div>

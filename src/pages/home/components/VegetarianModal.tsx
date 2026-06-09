@@ -5,17 +5,17 @@ const vegetarianDishes = [
   {
     id: "omeletes",
     nameKey: "dish_omeletes",
-    image: "https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/152ea39c-f403-443c-9c8c-fc96b8085afe_IMG_20260606_170043.png?v=4cb8fb307ea660f0204e085af7ccadca",
+    image: "/fotos-vegetariano/omeletes-pratos-vegetarianos.png",
   },
   {
     id: "salada-feijao",
     nameKey: "dish_salada_feijao",
-    image: "https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/f84aa709-4edd-4d20-a5a8-67d0f39e6ba2_1780766690457.png?v=da76bb4d3b2606fa08ed8ef621cc8974",
+    image: "/fotos-vegetariano/salada-de-feijao-pratos-vegetarianos.png",
   },
   {
     id: "salada-queijo-fresco",
     nameKey: "dish_salada_queijo_fresco",
-    image: "https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/b704fa80-4116-47fa-b2b6-b0b6da778ff2_1780765740658.png?v=b8759b0d5637f0c929255c78183bd79f",
+    image: "/fotos-vegetariano/salada-de-queijo-fresco-pratos-vegetarianos.png",
   },
 ];
 

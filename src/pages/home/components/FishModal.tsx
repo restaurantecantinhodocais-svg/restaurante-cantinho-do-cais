@@ -5,47 +5,47 @@ const fishDishes = [
   {
     id: "atum",
     nameKey: "dish_atum",
-    image: "https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/2c4a9e48-a4cf-4434-9854-d4d9a76e1219_IMG_20260605_224316.png?v=0a711b00d559cd99444600ea7b59353b",
+    image: "/fotos-pratos-de-peixe/atum-pratos-de-peixe.png",
   },
   {
     id: "bacalhau",
     nameKey: "dish_bacalhau",
-    image: "https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/1e3ff7bd-70fe-4ac1-b8a3-a67349936eb4_1780763955871.png?v=06c9a87b08403e5652c6b63d39559e17",
+    image: "/fotos-pratos-de-peixe/bacalhau-pratos-de-peixe.png",
   },
   {
     id: "chicharros-fritos",
     nameKey: "dish_chicharros_fritos",
-    image: "https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/b3d1a0c9-a9a0-4262-8707-b7b1b653ee96_IMG_20260605_224151.png?v=370437f698ad48eddaf32c2d88bcbf7f",
+    image: "/fotos-pratos-de-peixe/chicharros-fritos-pratos-de-peixe.png",
   },
   {
     id: "filetes-fritos",
     nameKey: "dish_filetes_fritos",
-    image: "https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/3c027cbb-fcdf-40eb-b7ee-f2f7b809559f_IMG_20260605_224208.png?v=96b86ce7c30aec0cd63425ccd8056cb6",
+    image: "/fotos-pratos-de-peixe/filetes-fritos-pratos-de-peixe.png",
   },
   {
     id: "lulas",
     nameKey: "dish_lulas",
-    image: "https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/1a64e05e-8553-4196-acf9-ef3eea39db2f_IMG_20260605_224342.png?v=b90924936aa6e8dd0c96352daeb377bd",
+    image: "/fotos-pratos-de-peixe/lulas-pratos-de-peixe.png",
   },
   {
     id: "molho-de-peixe",
     nameKey: "dish_molho_peixe",
-    image: "https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/6a1b793d-e533-4d43-9cf3-36b98690e635_1780760999362.png?v=091850f118b8988017c7c983d0924e42",
+    image: "/fotos-pratos-de-peixe/molho-de-peixe-pratos-de-peixe.png",
   },
   {
     id: "peixe-grelhado",
     nameKey: "dish_peixe_grelhado",
-    image: "https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/d7f1840e-cb6d-4260-81d9-acb972d31e3c_IMG_20260605_224246.png?v=6a55255c77ce8a1448dc37ed02d89b00",
+    image: "/fotos-pratos-de-peixe/peixe-grelhado-pratos-de-peixe.png",
   },
   {
     id: "polvo-assado",
     nameKey: "dish_polvo_assado",
-    image: "https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/b0e28b5e-dad3-45a3-be03-8ae229e39d54_IMG_20260606_144905.png?v=d20aa6668f3dda003727d2950df0510a",
+    image: "/fotos-pratos-de-peixe/polvo-assado-pratos-de-peixe.png",
   },
   {
     id: "polvo-guisado",
     nameKey: "dish_polvo_guisado",
-    image: "https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/04b5914f-0fe3-4ca3-bdb7-9e6efa170370_IMG_20260606_144940.png?v=ec68f37cdb04dcbfadb382b8b7e3212f",
+    image: "/fotos-pratos-de-peixe/polvo-guisado-pratos-de-peixe.png",
   },
 ];
 

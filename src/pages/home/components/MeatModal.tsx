@@ -5,27 +5,27 @@ const meatDishes = [
   {
     id: "assaduras",
     nameKey: "dish_assaduras",
-    image: "https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/48d0c5ba-7057-4841-98e6-23c1bb5ede16_IMG_20260606_144920.png?v=2e7ca897280f5fd495e202316894bbf0",
+    image: "/fotos-pratos-de-carne/assaduras-pratos-de-carne.png",
   },
   {
     id: "bifanas",
     nameKey: "dish_bifanas",
-    image: "https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/1cb11359-1dcc-46cc-9af8-c551c7646fdc_bifanas-pratos-de-carne.png?v=98094201e1fe060d6727369bf42fa47b",
+    image: "/fotos-pratos-de-carne/bifanas-pratos-de-carne.png",
   },
   {
     id: "bife-de-novilho",
     nameKey: "dish_bife_novilho",
-    image: "https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/3628e380-ff10-4717-99c3-c40720c12db3_bife-de-novilho-pratos-de-carne.png?v=5cb276fa27082bd49afa841aa8d6e8a3",
+    image: "/fotos-pratos-de-carne/bife-de-novilho-pratos-de-carne.png",
   },
   {
     id: "lombinhos",
     nameKey: "dish_lombinhos",
-    image: "https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/1530ff8c-29f3-457c-b526-39e6f6ce6155_IMG_20260605_224221.png?v=d875e02529c8778fcb4b46ea9fd1ef99",
+    image: "/fotos-pratos-de-carne/lombinhos-pratos-de-carne.png",
   },
   {
     id: "peito-de-frango",
     nameKey: "dish_peito_frango",
-    image: "https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/bdde0d93-37c3-4174-a7b5-655dd36272c2_IMG_20260605_224110.png?v=878ef8f307da2981cb1c1c586bf416bc",
+    image: "/fotos-pratos-de-carne/peitos-de-frango-pratos-de-carne.png",
   },
 ];
 

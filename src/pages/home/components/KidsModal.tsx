@@ -5,17 +5,17 @@ const kidsDishes = [
   {
     id: "filetes-fritos",
     nameKey: "dish_filetes_fritos",
-    image: "https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/095e526e-85e1-4874-8450-53a08c3857cb_1780767645910.png?v=c73783980f9360fcd04522d0a33b821f",
+    image: "/fotos-menu-infantil/filetes-fritos-menu-infantil.png",
   },
   {
     id: "hamburguer-prato",
     nameKey: "dish_hamburguer_prato",
-    image: "https://readdy.ai/api/search-image?query=Juicy%20beef%20hamburger%20patty%20served%20on%20a%20white%20plate%20with%20french%20fries%20and%20small%20salad%2C%20no%20bun%2C%20Portuguese%20restaurant%20style%2C%20warm%20ambient%20lighting%2C%20food%20photography%2C%20shallow%20depth%20of%20field%2C%20simple%20rustic%20background&width=600&height=400&seq=kids-hamburguer-prato&orientation=landscape",
+    image: "/fotos-menu-infantil/hamburguer-no-prato-menu-infantil.jpg",
   },
   {
     id: "lombinhos",
     nameKey: "dish_lombinhos",
-    image: "https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/1530ff8c-29f3-457c-b526-39e6f6ce6155_IMG_20260605_224221.png?v=d875e02529c8778fcb4b46ea9fd1ef99",
+    image: "/fotos-menu-infantil/lombinhos-menu-infantil.png",
   },
 ];
 

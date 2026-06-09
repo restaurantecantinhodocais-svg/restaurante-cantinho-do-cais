@@ -5,17 +5,16 @@ const desserts = [
   {
     id: "ananas",
     nameKey: "dish_ananas",
-    image: "https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/e1e9f358-9fc1-4ada-ad77-191471f4ed37_1780768847320.png?v=afb95475b2125d108490f3e68b622d72",
-  },
+    image: "/fotos-sobremesas/ananas-sobremesas.png",},
   {
     id: "gelados",
     nameKey: "dish_gelados",
-    image: "https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/4c66cc5f-1bb2-44f0-a2a6-b438306b5bf8_gelado-sobremesas.png?v=fd4e66f2ff25e849799b7c07e6dd376f",
+    image: "/fotos-sobremesas/gelados-sobremesas.png",
   },
   {
     id: "queijadas",
     nameKey: "dish_queijadas",
-    image: "https://storage.readdy-site.link/project_files/9aa1dc26-bdac-4eb1-9493-30950be68091/cfaba372-e391-45ca-9236-ccee1af074f3_queijadas-sobremesas.png?v=89d73edae5cb02e51664ddc2951e643a",
+    image: "/fotos-sobremesas/queijadas-sobremesas.png",
   },
 ];
 
