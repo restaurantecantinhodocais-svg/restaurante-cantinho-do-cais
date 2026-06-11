@@ -3,9 +3,9 @@ import { useTranslation } from "react-i18next";
 import i18n from "@/i18n";
 
 const LANGUAGES = [
-  { code: "pt", label: "PT", flag: "https://flagcdn.com/w40/pt.png" },
-  { code: "en", label: "EN", flag: "https://flagcdn.com/w40/gb.png" },
-  { code: "de", label: "DE", flag: "https://flagcdn.com/w40/de.png" },
+  { code: "pt", label: "PT", flag: "/fotos-bandeiras-idiomas/pt.png" },
+  { code: "en", label: "EN", flag: "/fotos-bandeiras-idiomas/gb.png" },
+  { code: "de", label: "DE", flag: "/fotos-bandeiras-idiomas/de.png" },
 ];
 
 export default function HeroSection() {

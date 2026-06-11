@@ -3,9 +3,9 @@ import { useTranslation } from "react-i18next";
 import i18n from "@/i18n";
 
 const LANGUAGES = [
-  { code: "pt", label: "PT", flag: "/Fotos Bandeiras Idiomas/pt.png" },
-  { code: "en", label: "EN", flag: "/Fotos Bandeiras Idiomas/gb.png" },
-  { code: "de", label: "DE", flag: "/Fotos Bandeiras Idiomas/de.png" },
+  { code: "pt", label: "PT", flag: "/fotos-bandeiras-idiomas/pt.png" },
+  { code: "en", label: "EN", flag: "/fotos-bandeiras-idiomas/gb.png" },
+  { code: "de", label: "DE", flag: "/fotos-bandeiras-idiomas/de.png" },
 ];
 
 const NAV_LINKS = [
