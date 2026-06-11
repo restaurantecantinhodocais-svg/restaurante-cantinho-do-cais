@@ -10,7 +10,7 @@ const kidsDishes = [
   {
     id: "hamburguer-prato",
     nameKey: "dish_hamburguer_prato",
-    image: "/fotos-menu-infantil/hamburguer-no-prato-menu-infantil.jpg",
+    image: "/fotos-menu-infantil/hamburguer-no-prato-menu-infantil.png",
   },
   {
     id: "lombinhos",
