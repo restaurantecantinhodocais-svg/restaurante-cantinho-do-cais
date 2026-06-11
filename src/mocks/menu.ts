@@ -2,7 +2,7 @@ export const menuCategories = [
   {
     id: "starters",
     key: "starters",
-    image: "/Fotos Menu Categorias/lapas-entradas.png",
+    image: "/fotos-menu-categorias/lapas-entradas.png",
     priceKey: "menu_price_starters",
     nameKey: "menu_cat_starters",
     descKey: "menu_cat_starters_desc",
@@ -10,7 +10,7 @@ export const menuCategories = [
   {
     id: "fish",
     key: "fish",
-    image: "/Fotos Menu Categorias/molho-de-peixe-pratos-de-peixe.png",
+    image: "/fotos-menu-categorias/molho-de-peixe-pratos-de-peixe.png",
     priceKey: "menu_price_fish",
     nameKey: "menu_cat_fish",
     descKey: "menu_cat_fish_desc",
@@ -18,7 +18,7 @@ export const menuCategories = [
   {
     id: "meat",
     key: "meat",
-    image: "/Fotos Menu Categorias/assaduras-pratos-de-carne.png",
+    image: "/fotos-menu-categorias/assaduras-pratos-de-carne.png",
     priceKey: "menu_price_meat",
     nameKey: "menu_cat_meat",
     descKey: "menu_cat_meat_desc",
@@ -26,7 +26,7 @@ export const menuCategories = [
   {
     id: "vegetarian",
     key: "vegetarian",
-    image: "/Fotos Menu Categorias/salada-queijo-fresco-pratos-vegetarianos.png",
+    image: "/fotos-menu-categorias/salada-queijo-fresco-pratos-vegetarianos.png",
     priceKey: "menu_price_vegetarian",
     nameKey: "menu_cat_vegetarian",
     descKey: "menu_cat_vegetarian_desc",
@@ -34,7 +34,7 @@ export const menuCategories = [
   {
     id: "kids",
     key: "kids",
-    image: "/Fotos Menu Categorias/filetes-menu-infantil.png",
+    image: "/fotos-menu-categorias/filetes-menu-infantil.png",
     priceKey: "menu_price_kids",
     nameKey: "menu_cat_kids",
     descKey: "menu_cat_kids_desc",
@@ -42,7 +42,7 @@ export const menuCategories = [
   {
     id: "desserts",
     key: "desserts",
-    image: "/Fotos Menu Categorias/queijadas-sobremesas.png",
+    image: "/fotos-menu-categorias/queijadas-sobremesas.png",
     priceKey: "menu_price_desserts",
     nameKey: "menu_cat_desserts",
     descKey: "menu_cat_desserts_desc",

@@ -7,7 +7,7 @@ export const testimonials = [
     text_pt: "Que agradável surpresa no Cantinho do Cais! Além de uma cozinha excecional – a sopa e o molho de peixe são de chorar por mais, realmente divinais – o atendimento fez toda a diferença. O Sr. Jorge é um anfitrião castiço, querido e de uma simpatia contagiante. Sentimo-nos em casa! Parabéns à equipa e, em especial, ao Sr. Jorge.",
     text_en: "What a pleasant surprise at Cantinho do Cais! Besides exceptional cuisine — the fish soup and fish stew are to die for, truly divine — the service made all the difference. Mr. Jorge is a genuine host, beloved and with contagious kindness. We felt at home! Congratulations to the team and especially to Mr. Jorge.",
     text_de: "Was für eine angenehme Überraschung im Cantinho do Cais! Neben der außergewöhnlichen Küche — die Fischsuppe und der Fischeintopf sind zum Dahinschmelzen, wahrhaft göttlich — machte der Service den entscheidenden Unterschied. Herr Jorge ist ein echter Gastgeber, liebenswert und mit ansteckender Freundlichkeit. Wir fühlten uns wie zu Hause! Glückwunsch an das Team und besonders an Herrn Jorge.",
-    avatar: "/Fotos Avatares/avatar1.jpg",
+    avatar: "/fotos-avatares/avatar1.jpg",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const testimonials = [
     text_pt: "Caldo de peixe muito bem conseguido, rico em pescado e com sabor suave, a afirmar-se como uma das melhores especialidades atuais em São Miguel. Serviço competente, ambiente acolhedor e tradicional, alinhado com a cozinha que apresenta.",
     text_en: "Very well-made fish soup, rich in seafood and with a mild flavour, establishing itself as one of the best current specialities on São Miguel. Competent service, warm and traditional atmosphere, aligned with the cuisine presented.",
     text_de: "Sehr gut gelungene Fischsuppe, reich an Meeresfrüchten und mit einem milden Geschmack, die sich als eine der besten aktuellen Spezialitäten auf São Miguel etabliert. Kompetenter Service, gemütliches und traditionelles Ambiente, passend zur servierten Küche.",
-    avatar: "/Fotos Avatares/avatar2.jpg",
+    avatar: "/fotos-avatares/avatar2.jpg",
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ export const testimonials = [
     text_pt: "Encontrámos o bar por acaso enquanto visitávamos as plantações de chá. Pedimos os pratos recomendados: molho de peixe, 1/2 polvo guisado e chicharros. Tudo estava delicioso. O serviço foi muito bom e rápido. Altamente recomendado.",
     text_en: "We found the restaurant by chance while visiting the tea plantations. We ordered the recommended dishes: fish stew, half stewed octopus and fried horse mackerel. Everything was delicious. The service was very good and fast. Highly recommended.",
     text_de: "Wir fanden das Restaurant zufällig beim Besuch der Teeplantagen. Wir bestellten die empfohlenen Gerichte: Fischeintopf, halber geschmorter Oktopus und gebratene Stöcker. Alles war köstlich. Der Service war sehr gut und schnell. Sehr empfohlen.",
-    avatar: "/Fotos Avatares/avatar3.jpg",
+    avatar: "/fotos-avatares/avatar3.jpg",
   },
   {
     id: 4,
@@ -36,8 +36,8 @@ export const testimonials = [
     rating: 5,
     text_pt: "Fui lá por recomendação e achei tão bom que não resisti. Fomos três vezes e a sopa de peixe com limão Galego é simplesmente a melhor. Também comi ótimos pratos de polvo e lula. Atendimento simpático e comida excelente. Recomendo muito.",
     text_en: "I went there on recommendation and found it so good that I couldn't resist. We went three times and the fish soup with Galician lemon is simply the best. I also had great octopus and squid dishes. Friendly service and excellent food. Highly recommend.",
-    text_de: "Ich ging dort auf Empfehlung hin und fand es so gut, dass ich nicht widerstehen konnte. Wir waren drei Mal dort und die Fischsuppe mit galizischer Zitrone ist einfach die beste. Ich hatte auch großartige Oktopus- und Tintenfischgerichte. Freundlicher Service und ausgezeichnetes Essen. Sehr empfohlen.",
-    avatar: "/Fotos Avatares/avatar4.jpg",
+    text_de: "Ich ging dort auf Empfehlung hin und fand es so gut, dass ich nicht widerstehen konnte. Wir waren drei Mal dort und die Fischsuppe mit galizischer Zitrone é simplesmente a melhor. Também comi ótimos pratos de polvo e lula. Atendimento simpático e comida excelente. Recomendo muito.",
+    avatar: "/fotos-avatares/avatar4.jpg",
   },
   {
     id: 5,
@@ -47,6 +47,6 @@ export const testimonials = [
     text_pt: "Muito bom! Tivemos o prazer de conhecer a chef de cozinha, adorável! O caldo de peixe é sensacional e os mexilhões são deliciosos! A queijada é muito diferenciada!",
     text_en: "Very good! We had the pleasure of meeting the chef, lovely! The fish soup is sensational and the mussels are delicious! The queijada is very distinctive!",
     text_de: "Sehr gut! Wir hatten das Vergnügen, die Köchin kennenzulernen, wunderbar! Die Fischsuppe ist sensationell und die Muscheln sind köstlich! Die Queijada ist sehr außergewöhnlich!",
-    avatar: "/Fotos Avatares/avatar5.jpg",
+    avatar: "/fotos-avatares/avatar5.jpg",
   },
 ];
