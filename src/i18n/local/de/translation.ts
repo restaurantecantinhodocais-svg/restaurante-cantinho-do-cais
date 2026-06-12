@@ -90,7 +90,7 @@ const translation = {
   dish_atum: "Thunfisch",
   dish_bacalhau: "Kabeljau",
   dish_chicharros_fritos: "Gebratene Stöcker",
-  dish_lulas: "Tintenfisch",
+  dish_lulas_grelhadas: "Gegrillter Tintenfisch",
   dish_peixe_grelhado: "Gegrillter Fisch",
   dish_polvo_assado: "Gebratener Oktopus",
   dish_polvo_guisado: "Geschmorter Oktopus",

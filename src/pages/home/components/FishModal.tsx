@@ -24,7 +24,7 @@ const fishDishes = [
   },
   {
     id: "lulas",
-    nameKey: "dish_lulas",
+    nameKey: "dish_lulas_grelhadas",
     image: "/fotos-pratos-de-peixe/lulas-pratos-de-peixe.png",
   },
   {
@@ -145,8 +145,8 @@ export default function FishModal({ isOpen, onClose, offset }: FishModalProps) {
                     <h3 className="font-serif text-base text-stone-900 font-semibold text-center">
                       {index + offset + 1} - {t(item.nameKey)}
                     </h3>
-                    {item.id === "polvo-assado" && (
-                      <p className="text-stone-400 text-xs mt-1 text-center">{t("dish_note_por_encomenda")}</p>
+                    {(item.id === "polvo-assado" || item.id === "peixe-grelhado") && (
+                      <p className="text-stone-400 text-xs mt-1 text-center">{t("dish_note_sob_consulta")}</p>
                     )}
                   </div>
                 </div>

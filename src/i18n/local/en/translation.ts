@@ -90,7 +90,7 @@ const translation = {
   dish_atum: "Tuna",
   dish_bacalhau: "Codfish",
   dish_chicharros_fritos: "Fried Horse Mackerel",
-  dish_lulas: "Squid",
+  dish_lulas_grelhadas: "Grilled Squid",
   dish_peixe_grelhado: "Grilled Fish",
   dish_polvo_assado: "Roasted Octopus",
   dish_polvo_guisado: "Stewed Octopus",

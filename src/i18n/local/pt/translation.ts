@@ -91,7 +91,7 @@ const translation = {
   dish_atum: "Atum",
   dish_bacalhau: "Bacalhau",
   dish_chicharros_fritos: "Chicharros Fritos",
-  dish_lulas: "Lulas",
+  dish_lulas_grelhadas: "Lulas Grelhadas",
   dish_peixe_grelhado: "Peixe Grelhado",
   dish_polvo_assado: "Polvo Assado",
   dish_polvo_guisado: "Polvo Guisado",
