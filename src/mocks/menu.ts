@@ -34,7 +34,7 @@ export const menuCategories = [
   {
     id: "kids",
     key: "kids",
-    image: "/fotos-menu-categorias/filetes-menu-infantil.png",
+    image: "/fotos-menu-categorias/hamburguer-menu-infantil.png",
     priceKey: "menu_price_kids",
     nameKey: "menu_cat_kids",
     descKey: "menu_cat_kids_desc",
