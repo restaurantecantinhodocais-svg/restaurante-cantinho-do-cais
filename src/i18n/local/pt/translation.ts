@@ -160,6 +160,7 @@ const translation = {
   footer_privacy: "Política de Privacidade",
   footer_terms: "Termos de Uso",
   footer_copyright: "© 2026 Cantinho do Cais. Todos os direitos reservados.",
+  footer_developed_by: "Desenvolvido por Ponto Zero Apps",
   footer_newsletter_title: "Novidades e Promoções",
   footer_newsletter_desc: "Receba as nossas novidades e promoções especiais",
   footer_newsletter_placeholder: "O seu email",

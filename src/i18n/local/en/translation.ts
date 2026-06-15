@@ -159,6 +159,7 @@ const translation = {
   footer_privacy: "Privacy Policy",
   footer_terms: "Terms of Use",
   footer_copyright: "© 2026 Cantinho do Cais. All rights reserved.",
+  footer_developed_by: "Developed by Ponto Zero Apps",
   footer_newsletter_title: "News & Promotions",
   footer_newsletter_desc: "Receive our latest news and special promotions",
   footer_newsletter_placeholder: "Your email",
