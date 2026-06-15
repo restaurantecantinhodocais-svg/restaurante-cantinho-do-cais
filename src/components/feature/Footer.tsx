@@ -109,7 +109,14 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 md:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
           <div className="flex flex-col items-center sm:items-start text-stone-500 text-xs gap-1">
             <p>{t("footer_copyright")}</p>
-            <p>{t("footer_developed_by")}</p>
+            <a 
+              href="https://ponto-zero.pages.dev" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-amber-500 transition-colors cursor-pointer"
+            >
+              {t("footer_developed_by")}
+            </a>
           </div>
           <div className="flex items-center gap-4 text-xs text-stone-500">
             <a href="#" rel="nofollow" className="hover:text-amber-500 transition-colors cursor-pointer">{t("footer_privacy")}</a>
