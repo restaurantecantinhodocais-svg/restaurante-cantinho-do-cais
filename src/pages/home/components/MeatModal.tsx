@@ -5,27 +5,27 @@ const meatDishes = [
   {
     id: "assaduras",
     nameKey: "dish_assaduras",
-    image: "/fotos-pratos-de-carne/assaduras-pratos-de-carne.png",
+    image: "/fotos-pratos-de-carne/assaduras-pratos-de-carne.webp",
   },
   {
     id: "bifanas",
     nameKey: "dish_bifanas",
-    image: "/fotos-pratos-de-carne/bifanas-pratos-de-carne.png",
+    image: "/fotos-pratos-de-carne/bifanas-pratos-de-carne.webp",
   },
   {
     id: "bife-de-novilho",
     nameKey: "dish_bife_novilho",
-    image: "/fotos-pratos-de-carne/bife-de-novilho-pratos-de-carne.png",
+    image: "/fotos-pratos-de-carne/bife-de-novilho-pratos-de-carne.webp",
   },
   {
     id: "lombinhos",
     nameKey: "dish_lombinhos",
-    image: "/fotos-pratos-de-carne/lombinhos-pratos-de-carne.png",
+    image: "/fotos-pratos-de-carne/lombinhos-pratos-de-carne.webp",
   },
   {
     id: "peito-de-frango",
     nameKey: "dish_peito_frango",
-    image: "/fotos-pratos-de-carne/peitos-de-frango-pratos-de-carne.png",
+    image: "/fotos-pratos-de-carne/peitos-de-frango-pratos-de-carne.webp",
   },
 ];
 

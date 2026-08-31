@@ -5,47 +5,47 @@ const fishDishes = [
   {
     id: "atum",
     nameKey: "dish_atum",
-    image: "/fotos-pratos-de-peixe/atum-pratos-de-peixe.png",
+    image: "/fotos-pratos-de-peixe/atum-pratos-de-peixe.webp",
   },
   {
     id: "bacalhau",
     nameKey: "dish_bacalhau",
-    image: "/fotos-pratos-de-peixe/bacalhau-pratos-de-peixe.png",
+    image: "/fotos-pratos-de-peixe/bacalhau-pratos-de-peixe.webp",
   },
   {
     id: "chicharros-fritos",
     nameKey: "dish_chicharros_fritos",
-    image: "/fotos-pratos-de-peixe/chicharros-fritos-pratos-de-peixe.png",
+    image: "/fotos-pratos-de-peixe/chicharros-fritos-pratos-de-peixe.webp",
   },
   {
     id: "filetes-fritos",
     nameKey: "dish_filetes_fritos",
-    image: "/fotos-pratos-de-peixe/filetes-fritos-pratos-de-peixe.png",
+    image: "/fotos-pratos-de-peixe/filetes-fritos-pratos-de-peixe.webp",
   },
   {
     id: "lulas",
     nameKey: "dish_lulas_grelhadas",
-    image: "/fotos-pratos-de-peixe/lulas-pratos-de-peixe.png",
+    image: "/fotos-pratos-de-peixe/lulas-pratos-de-peixe.webp",
   },
   {
     id: "molho-de-peixe",
     nameKey: "dish_molho_peixe",
-    image: "/fotos-pratos-de-peixe/molho-de-peixe-pratos-de-peixe.png",
+    image: "/fotos-pratos-de-peixe/molho-de-peixe-pratos-de-peixe.webp",
   },
   {
     id: "peixe-grelhado",
     nameKey: "dish_peixe_grelhado",
-    image: "/fotos-pratos-de-peixe/peixe-grelhado-pratos-de-peixe.png",
+    image: "/fotos-pratos-de-peixe/peixe-grelhado-pratos-de-peixe.webp",
   },
   {
     id: "polvo-assado",
     nameKey: "dish_polvo_assado",
-    image: "/fotos-pratos-de-peixe/polvo-assado-pratos-de-peixe.png",
+    image: "/fotos-pratos-de-peixe/polvo-assado-pratos-de-peixe.webp",
   },
   {
     id: "polvo-guisado",
     nameKey: "dish_polvo_guisado",
-    image: "/fotos-pratos-de-peixe/polvo-guisado-pratos-de-peixe.png",
+    image: "/fotos-pratos-de-peixe/polvo-guisado-pratos-de-peixe.webp",
   },
 ];
 

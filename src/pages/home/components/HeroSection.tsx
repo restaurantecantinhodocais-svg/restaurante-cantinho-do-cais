@@ -49,7 +49,7 @@ export default function HeroSection() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="/cantinho-do-cais-home.png"
+          src="/cantinho-do-cais-home.webp"
           alt="Cantinho do Cais - Restaurante em São Brás, Açores"
           className="w-full h-full object-cover object-top"
         />

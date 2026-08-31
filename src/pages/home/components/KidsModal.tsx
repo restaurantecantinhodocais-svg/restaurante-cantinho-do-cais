@@ -5,17 +5,17 @@ const kidsDishes = [
   {
     id: "filetes-fritos",
     nameKey: "dish_filetes_fritos",
-    image: "/fotos-menu-infantil/filetes-fritos-menu-infantil.png",
+    image: "/fotos-menu-infantil/filetes-fritos-menu-infantil.webp",
   },
   {
     id: "hamburguer-prato",
     nameKey: "dish_hamburguer_prato",
-    image: "/fotos-menu-infantil/hamburguer-no-prato-menu-infantil.png",
+    image: "/fotos-menu-infantil/hamburguer-no-prato-menu-infantil.webp",
   },
   {
     id: "lombinhos",
     nameKey: "dish_lombinhos",
-    image: "/fotos-menu-infantil/lombinhos-menu-infantil.png",
+    image: "/fotos-menu-infantil/lombinhos-menu-infantil.webp",
   },
 ];
 

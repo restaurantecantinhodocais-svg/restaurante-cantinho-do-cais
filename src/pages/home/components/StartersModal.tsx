@@ -5,42 +5,42 @@ const starters = [
   {
     id: "camarao",
     nameKey: "dish_camarao",
-    image: "/fotos-entradas/camarao-entradas.png"
+    image: "/fotos-entradas/camarao-entradas.webp"
   },
   {
     id: "favas-guisadas",
     nameKey: "dish_favas_guisadas",
-    image: "/fotos-entradas/favas-entradas.png"
+    image: "/fotos-entradas/favas-entradas.webp"
   },
   {
     id: "iscas-de-atum",
     nameKey: "dish_iscas_atum",
-    image: "/fotos-entradas/iscas-de-atum-entradas.png",
+    image: "/fotos-entradas/iscas-de-atum-entradas.webp",
   },
   {
     id: "lapas-grelhadas",
     nameKey: "dish_lapas_grelhadas",
-    image: "/fotos-entradas/lapas-entradas.png",
+    image: "/fotos-entradas/lapas-entradas.webp",
   },
   {
     id: "mexilhoes-grelhados",
     nameKey: "dish_mexilhoes_grelhados",
-    image: "/fotos-entradas/mexilhoes-entradas.png",
+    image: "/fotos-entradas/mexilhoes-entradas.webp",
   },
   {
     id: "queijo-curado",
     nameKey: "dish_queijo_curado",
-    image: "/fotos-entradas/queijo-curado-entradas.png",
+    image: "/fotos-entradas/queijo-curado-entradas.webp",
   },
   {
     id: "queijo-fresco",
     nameKey: "dish_queijo_fresco",
-    image: "/fotos-entradas/queijo-fresco-entradas.png",
+    image: "/fotos-entradas/queijo-fresco-entradas.webp",
   },
   {
     id: "sopa-de-peixe",
     nameKey: "dish_sopa_peixe",
-    image: "/fotos-entradas/sopa-de-peixe-entradas.png",
+    image: "/fotos-entradas/sopa-de-peixe-entradas.webp",
   },
 ];
 
