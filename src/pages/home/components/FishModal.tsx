@@ -5,7 +5,7 @@ const fishDishes = [
   {
     id: "atum",
     nameKey: "dish_atum",
-    image: "/fotos-pratos-de-peixe/atum-pratos-de-peixe.png",
+    image: "/fotos-pratos-de-peixe/atum-pratos-de-peixe.webp",
   },
   {
     id: "bacalhau",
