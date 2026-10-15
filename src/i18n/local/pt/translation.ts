@@ -1,6 +1,7 @@
 const translation = {
   // Nav
   nav_home: "Início",
+  nav_back_home: "Voltar ao Início",
   nav_about: "Sobre",
   nav_menu: "Menu",
   nav_gallery: "Galeria",
@@ -60,6 +61,50 @@ const translation = {
   menu_price_vegetarian: "€7,50",
   menu_price_kids: "€6,50",
   menu_price_desserts: "€1,20",
+  
+  // Preçário e Bebidas
+  menu_suggestion_question: "Gostou das nossas sugestões?",
+  menu_full_price_list: "Ver Preçário Completo e Carta de Vinhos",
+  menu_section_food: "Comida",
+  menu_section_drinks: "Bebidas",
+  menu_cat_vines: "Vinhos",
+  menu_cat_reds: "Tintos",
+  menu_cat_whites: "Brancos",
+  menu_cat_greens_alvarinhos: "Verdes e Alvarinhos",
+  menu_cat_roses: "Rosés",
+  menu_cat_sparkling: "Espumantes",
+  menu_cat_brewery: "Cervejaria",
+  menu_cat_águas: "Águas",
+  menu_cat_sumos: "Sumos",
+  menu_cat_licores: "Licores",
+  menu_cat_aguardentes: "Aguardentes",
+  menu_cat_brandys: "Brandys",
+  menu_cat_whiskys: "Whiskys",
+
+  // Cervejaria (Em português mantém exatamente o nome original limpo)
+  cerveja_fino: "Fino",
+  cerveja_tulipa: "Tulipa",
+  cerveja_caneca: "Caneca",
+  cerveja_garrafa: "Garrafa",
+  cerveja_panache: "Panaché",
+  cerveja_caldeado_cerveja: "Caldeado com cerveja",
+  cerveja_caldeado_vinho: "Caldeado com vinho",
+
+  // Águas (Em português mantém o nome original limpo)
+  agua_sem_gas: "Água sem gás",
+  agua_com_gas: "Água com gás",
+  agua_tonica: "Água Tónica",
+
+  // Riscos / Shots (Em português mantém o nome original limpo)
+  bebida_risco_licor: "\"Risco\" de Licor",
+  bebida_risco_brandy: "\"Risco\" de Brandy",
+  bebida_risco_whisky: "\"Risco\" Whisky Novo",
+
+  // Regiões de Vinhos exatas
+  regiao_alentejo: "Alentejo",
+  regiao_douro: "Douro",
+  regiao_dão: "Dão",
+  regiao_outras_regiões: "Outras Regiões",
 
   // Modals
   modal_close: "Fechar",
@@ -84,7 +129,7 @@ const translation = {
   dish_favas_guisadas: "Favas Guisadas",
   dish_iscas_atum: "Iscas de Atum",
   dish_lapas_grelhadas: "Lapas Grelhadas",
-  dish_mexilhoes_grelhados: "Mexilhões Grelhados",
+  dish_mexilhoes_grelhados: "Mexilhão Grelhado",
   dish_queijo_curado: "Queijo Curado",
   dish_queijo_fresco: "Queijo Fresco",
   dish_sopa_peixe: "Sopa de Peixe",
@@ -148,17 +193,18 @@ const translation = {
   contact_form_email: "Email",
   contact_form_message: "Mensagem",
   contact_form_submit: "Enviar Mensagem",
-  contact_form_success: "Mensagem enviada com sucesso! Entraremos em contacto brevemente.",
+  contact_form_success: "Message sent successfully! Entraremos em contacto brevemente.",
   contact_form_error: "Ocorreu um erro. Por favor tente novamente.",
   contact_call_cta: "Ligar Agora",
 
   // Footer
   footer_tagline: "Cozinha açoriana de sabores autênticos em São Brás",
-  footer_nav_title: "Navegação",
+  footer_nav_title: "Navigation",
   footer_info_title: "Informações",
   footer_legal_title: "Legal",
   footer_privacy: "Política de Privacidade",
   footer_terms: "Termos de Uso",
+  footer_cookies: "Política de Cookies",
   footer_copyright: "© 2026 Cantinho do Cais. Todos os direitos reservados.",
   footer_developed_by: "Desenvolvido por Ponto Zero Apps",
   footer_newsletter_title: "Novidades e Promoções",
@@ -167,6 +213,65 @@ const translation = {
   footer_newsletter_cta: "Subscrever",
   footer_made_with: "Feito com",
   footer_in: "nos Açores",
+  footer_complaints: "Livro de Reclamações",
+
+  // --- PÁGINAS LEGAIS ---
+
+  // Cookies
+  cookies_title: "Política de Cookies",
+  cookies_intro_1: "O website do ",
+  cookies_intro_2: " utiliza cookies para garantir que lhe proporcionamos a melhor experiência de navegação.",
+  cookies_h1: "1. O que são Cookies?",
+  cookies_p1: "Cookies são pequenos ficheiros de texto guardados no seu computador ou dispositivo móvel através do navegador de internet (browser). Estes ficheiros permitem que o website se \"lembre\" das suas ações e preferências (como o idioma escolhido) durante um determinado período de tempo.",
+  cookies_h2: "2. Que Cookies utilizamos?",
+  cookies_p2_1: "O nosso website utiliza apenas ",
+  cookies_p2_2: " e ",
+  cookies_p2_strong1: "Cookies Estritamente Necessários",
+  cookies_p2_strong2: "Cookies Funcionais",
+  cookies_li1_strong: "Cookies de Idioma:",
+  cookies_li1_text: " Utilizados para memorizar o idioma (Português, Inglês ou Alemão) que escolheu para navegar no site, para que não tenha de o selecionar novamente sempre que visita uma nova página.",
+  cookies_li2_strong: "Cookies de Performance/Análise:",
+  cookies_li2_text: " Utilizamos ferramentas de análise anónimas que não recolhem dados pessoais (não rastreiam IP nem identificam o utilizador), servindo apenas para contagem de visitas e melhoria do desempenho do site.",
+  cookies_p3: "Não utilizamos cookies de publicidade direcionada ou marketing de terceiros.",
+  cookies_h3: "3. Como Gerir os Cookies?",
+  cookies_p4: "Pode bloquear ou apagar os cookies nas definições do seu navegador a qualquer momento. No entanto, ao desativar os cookies, algumas funcionalidades do website (como a memorização do idioma) poderão deixar de funcionar corretamente. Para mais informações sobre como gerir cookies, consulte a secção de \"Ajuda\" do seu navegador.",
+
+  // Privacidade
+  privacy_title: "Política de Privacidade",
+  privacy_intro_1: "O ",
+  privacy_intro_2: " respeita a privacidade de todos os utilizadores do seu website e compromete-se a proteger as informações pessoais que cada utilizador decidir partilhar.",
+  privacy_h1: "1. Recolha de Dados",
+  privacy_p1: "Ao navegar no nosso website, não recolhemos informações pessoais automaticamente. Os únicos dados pessoais aos quais temos acesso são aqueles que nos fornece voluntariamente ao entrar em contacto connosco via telefone (como nome, número de telefone e detalhes de reserva).",
+  privacy_h2: "2. Utilização dos Dados",
+  privacy_p2: "Os dados fornecidos serão utilizados exclusivamente para:",
+  privacy_li1: "Responder a pedidos de informação ou contacto.",
+  privacy_li2: "Processar e gerir pedidos de reserva de mesa.",
+  privacy_li3: "Melhorar a experiência do utilizador no nosso espaço.",
+  privacy_h3: "3. Partilha de Dados",
+  privacy_p3: "O Cantinho do Cais não vende, aluga ou partilha os seus dados pessoais com terceiros, exceto quando estritamente necessário para o cumprimento de obrigações legais.",
+  privacy_h4: "4. Retenção de Dados",
+  privacy_p4: "Os seus dados serão guardados apenas pelo tempo necessário para a finalidade para a qual foram recolhidos (por exemplo, até à data da sua reserva ou conclusão do seu pedido de contacto).",
+  privacy_h5: "5. Os Seus Direitos",
+  privacy_p5: "Ao abrigo do RGPD, tem o direito de solicitar o acesso, retificação ou eliminação dos seus dados pessoais. Para exercer estes direitos, por favor contacte-nos através do telefone 296 442 631 ou presencialmente na nossa morada: Rua do Ramal 1, 9625-510 São Brás, Açores.",
+  privacy_h6: "6. Alterações a esta Política",
+  privacy_p6: "Reservamo-nos o direito de atualizar esta Política de Privacidade sempre que necessário. Recomendamos a consulta periódica desta página.",
+
+  // Termos
+  terms_title: "Termos de Uso",
+  terms_intro_1: "Bem-vindo ao website do ",
+  terms_intro_2: ". Ao aceder e utilizar este website, concorda em cumprir os seguintes termos e condições.",
+  terms_h1: "1. Propósito do Website",
+  terms_p1: "Este website tem um caráter estritamente informativo, destinando-se a apresentar o nosso espaço, menu, horários, localização e métodos de contacto/reserva.",
+  terms_h2: "2. Informações do Menu e Preços",
+  terms_p2: "Fazemos todos os esforços para garantir que as informações apresentadas no website estão atualizadas. No entanto, os preços, pratos e disponibilidade dos produtos (especialmente peixe fresco e marisco) estão sujeitos a alterações sem aviso prévio, dependendo do mercado diário e da época. As imagens apresentadas na galeria são meramente ilustrativas.",
+  terms_h3: "3. Propriedade Intelectual",
+  terms_p3: "Todo o conteúdo presente neste website, incluindo textos, logótipos, gráficos e imagens, é propriedade do Cantinho do Cais ou está licenciado para nosso uso, e encontra-se protegido por leis de direitos de autor. É estritamente proibida a reprodução, modificação ou distribuição de qualquer conteúdo sem autorização prévia.",
+  terms_h4: "4. Reservas",
+  terms_p4: "Todas as reservas de mesa devem ser efetuadas exclusivamente por contacto telefónico direto para o restaurante, estando sujeitas a confirmação de disponibilidade.",
+  terms_h5: "5. Limitação de Responsabilidade",
+  terms_p5: "O Cantinho do Cais não se responsabiliza por eventuais danos ou problemas técnicos resultantes da utilização deste website ou de links externos para outras plataformas (como o Livro de Reclamações Eletrónico).",
+  terms_h6: "6. Contactos",
+  terms_p6: "Para qualquer dúvida sobre estes Termos de Uso, contacte-nos através do telefone 296 442 631 ou visite-nos na Rua do Ramal 1, 9625-510 São Brás."
 };
 
 export default translation;

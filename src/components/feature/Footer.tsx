@@ -1,7 +1,8 @@
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
+// Removido o "nav_home" para ficar alinhado com o cabeçalho
 const NAV_LINKS = [
-  { key: "nav_home", href: "#hero" },
   { key: "nav_about", href: "#about" },
   { key: "nav_menu", href: "#menu" },
   { key: "nav_gallery", href: "#gallery" },
@@ -118,10 +119,28 @@ export default function Footer() {
               {t("footer_developed_by")}
             </a>
           </div>
-          <div className="flex items-center gap-4 text-xs text-stone-500">
-            <a href="#" rel="nofollow" className="hover:text-amber-500 transition-colors cursor-pointer">{t("footer_privacy")}</a>
-            <span>·</span>
-            <a href="#" rel="nofollow" className="hover:text-amber-500 transition-colors cursor-pointer">{t("footer_terms")}</a>
+          
+          <div className="flex flex-wrap items-center justify-center sm:justify-end gap-3 sm:gap-4 text-xs text-stone-500 mt-3 sm:mt-0">
+            <Link to="/privacidade" className="hover:text-amber-500 transition-colors cursor-pointer">
+              {t("footer_privacy")}
+            </Link>
+            <span className="hidden sm:inline">·</span>
+            <Link to="/termos" className="hover:text-amber-500 transition-colors cursor-pointer">
+              {t("footer_terms")}
+            </Link>
+            <span className="hidden sm:inline">·</span>
+            <Link to="/cookies" className="hover:text-amber-500 transition-colors cursor-pointer">
+              {t("footer_cookies")}
+            </Link>
+            <span className="hidden sm:inline">·</span>
+            <a 
+              href="https://www.livroreclamacoes.pt/Inicio/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-amber-500 transition-colors cursor-pointer flex items-center gap-1"
+            >
+              {t("footer_complaints")}
+            </a>
           </div>
         </div>
       </div>

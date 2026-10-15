@@ -5,16 +5,16 @@ const desserts = [
   {
     id: "ananas",
     nameKey: "dish_ananas",
-    image: "/fotos-sobremesas/ananas-sobremesas.png",},
+    image: "/fotos-sobremesas/ananas-sobremesas.webp",},
   {
     id: "gelados",
     nameKey: "dish_gelados",
-    image: "/fotos-sobremesas/gelados-sobremesas.png",
+    image: "/fotos-sobremesas/gelados-sobremesas.webp",
   },
   {
     id: "queijadas",
     nameKey: "dish_queijadas",
-    image: "/fotos-sobremesas/queijadas-sobremesas.png",
+    image: "/fotos-sobremesas/queijadas-sobremesas.webp",
   },
 ];
 

@@ -1,5 +1,4 @@
-import Navbar from "@/components/feature/Navbar";
-import Footer from "@/components/feature/Footer";
+import Layout from "../../components/layout/Layout";
 import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
 import MenuSection from "./components/MenuSection";
@@ -10,8 +9,7 @@ import ContactSection from "./components/ContactSection";
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen">
-      <Navbar />
+    <Layout>
       <HeroSection />
       <AboutSection />
       <MenuSection />
@@ -19,7 +17,6 @@ export default function HomePage() {
       <TestimonialsSection />
       <ReservationsSection />
       <ContactSection />
-      <Footer />
-    </main>
+    </Layout>
   );
 }

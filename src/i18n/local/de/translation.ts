@@ -1,6 +1,7 @@
 const translation = {
   // Nav
   nav_home: "Startseite",
+  nav_back_home: "Zurück zur Startseite",
   nav_about: "Über uns",
   nav_menu: "Speisekarte",
   nav_gallery: "Galerie",
@@ -59,6 +60,50 @@ const translation = {
   menu_price_vegetarian: "€7,50",
   menu_price_kids: "€6,50",
   menu_price_desserts: "€1,20",
+  
+  // Preisliste & Getränke
+  menu_suggestion_question: "Haben Ihnen unsere Empfehlungen gefallen?",
+  menu_full_price_list: "Vollständige Preisliste & Weinkarte ansehen",
+  menu_section_food: "Speisen",
+  menu_section_drinks: "Getränke",
+  menu_cat_vines: "Weine",
+  menu_cat_reds: "Rotweine",
+  menu_cat_whites: "Weißweine",
+  menu_cat_greens_alvarinhos: "Grüne Weine & Alvarinho",
+  menu_cat_roses: "Roséweine",
+  menu_cat_sparkling: "Schaumweine",
+  menu_cat_brewery: "Bier vom Fass & Flaschenbiere",
+  menu_cat_águas: "Wässer",
+  menu_cat_sumos: "Säfte",
+  menu_cat_licores: "Liköre",
+  menu_cat_aguardentes: "Spirituosen",
+  menu_cat_brandys: "Brandys",
+  menu_cat_whiskys: "Whiskys",
+
+  // Brewery Items Descriptions / Translations (DE)
+  cerveja_fino: "Fino / Kleines Bier (Glas)",
+  cerveja_tulipa: "Großes Bier / Tulpe (Glas)",
+  cerveja_caneca: "Bierkrug",
+  cerveja_garrafa: "Flasche",
+  cerveja_panache: "Radler / Panaché (Bier mit Sprite)",
+  cerveja_caldeado_cerveja: "Caldeado mit Bier (Bier-Wein-Mischung)",
+  cerveja_caldeado_vinho: "Caldeado mit Wein (Wein-Bier-Mischung)",
+
+  // Waters (DE)
+  agua_sem_gas: "Stilles Wasser",
+  agua_com_gas: "Wasser mit Kohlensäure (Sprudel)",
+  agua_tonica: "Tonic Water",
+
+  // Shots / Riscos (DE)
+  bebida_risco_licor: "Likör-Shot",
+  bebida_risco_brandy: "Brandy-Shot",
+  bebida_risco_whisky: "Neuer Whisky-Shot",
+
+  // Weinregionen
+  regiao_alentejo: "Alentejo",
+  regiao_douro: "Douro",
+  regiao_dão: "Dão",
+  regiao_outras_regiões: "Andere Regionen",
 
   // Modals
   modal_close: "Schließen",
@@ -158,6 +203,7 @@ const translation = {
   footer_legal_title: "Rechtliches",
   footer_privacy: "Datenschutzrichtlinie",
   footer_terms: "Nutzungsbedingungen",
+  footer_cookies: "Cookie-Richtlinie",
   footer_copyright: "© 2026 Cantinho do Cais. Alle Rechte vorbehalten.",
   footer_developed_by: "Entwickelt von Ponto Zero Apps",
   footer_newsletter_title: "Neuigkeiten & Angebote",
@@ -166,6 +212,65 @@ const translation = {
   footer_newsletter_cta: "Abonnieren",
   footer_made_with: "Gemacht mit",
   footer_in: "auf den Azoren",
+  footer_complaints: "Beschwerdebuch",
+
+  // --- PÁGINAS LEGAIS (LEGAL PAGES) ---
+
+  // Cookies
+  cookies_title: "Cookie-Richtlinie",
+  cookies_intro_1: "Die Website von ",
+  cookies_intro_2: " verwendet Cookies, um sicherzustellen, dass wir Ihnen das bestmögliche Surferlebnis bieten.",
+  cookies_h1: "1. Was sind Cookies?",
+  cookies_p1: "Cookies sind kleine Textdateien, die über Ihren Webbrowser auf Ihrem Computer oder Mobilgerät gespeichert werden. Diese Dateien ermöglichen es der Website, sich über einen bestimmten Zeitraum an Ihre Aktionen und Präferenzen (wie die gewählte Sprache) zu „erinnern“.",
+  cookies_h2: "2. Welche Cookies verwenden wir?",
+  cookies_p2_1: "Unsere Website verwendet ausschließlich ",
+  cookies_p2_2: " und ",
+  cookies_p2_strong1: "Zwingend notwendige Cookies",
+  cookies_p2_strong2: "Funktionale Cookies",
+  cookies_li1_strong: "Sprach-Cookies:",
+  cookies_li1_text: " Werden verwendet, um sich an die Sprache (Portugiesisch, Englisch oder Deutsch) zu erinnern, die Sie zum Durchsuchen der Website ausgewählt haben, damit Sie diese bei jedem Besuch einer neuen Seite nicht erneut auswählen müssen.",
+  cookies_li2_strong: "Leistungs-/Analyse-Cookies:",
+  cookies_li2_text: " Wir verwenden anonyme Analysetools, die keine personenbezogenen Daten sammeln (weder die IP-Adresse verfolgen noch den Benutzer identifizieren) und nur zur Zählung von Besuchen und zur Verbesserung der Website-Leistung dienen.",
+  cookies_p3: "Wir verwenden keine Cookies für gezielte Werbung oder Drittanbieter-Marketing.",
+  cookies_h3: "3. Wie kann man Cookies verwalten?",
+  cookies_p4: "Sie können Cookies jederzeit in den Einstellungen Ihres Browsers blockieren oder löschen. Durch die Deaktivierung von Cookies können jedoch einige Funktionen der Website (wie das Speichern der Sprache) möglicherweise nicht mehr richtig funktionieren. Weitere Informationen zur Verwaltung von Cookies finden Sie im „Hilfe“-Bereich Ihres Browsers.",
+
+  // Privacidade
+  privacy_title: "Datenschutzrichtlinie",
+  privacy_intro_1: "Das ",
+  privacy_intro_2: " respektiert die Privatsphäre aller Nutzer seiner Website und verpflichtet sich, die persönlichen Daten, die jeder Nutzer teilen möchte, zu schützen.",
+  privacy_h1: "1. Datenerhebung",
+  privacy_p1: "Beim Surfen auf unserer Website erfassen wir nicht automatisch personenbezogene Daten. Die einzigen personenbezogenen Daten, auf die wir Zugriff haben, sind jene, die Sie uns freiwillig zur Verfügung stellen, wenn Sie uns telefonisch kontaktieren (wie Name, Telefonnummer und Reservierungsdetails).",
+  privacy_h2: "2. Datennutzung",
+  privacy_p2: "Die bereitgestellten Daten werden ausschließlich verwendet für:",
+  privacy_li1: "Die Beantwortung von Informations- oder Kontaktanfragen.",
+  privacy_li2: "Die Bearbeitung und Verwaltung von Tischreservierungsanfragen.",
+  privacy_li3: "Die Verbesserung der Benutzererfahrung in unserem Raum.",
+  privacy_h3: "3. Datenweitergabe",
+  privacy_p3: "Cantinho do Cais verkauft, vermietet oder teilt Ihre personenbezogenen Daten nicht mit Dritten, es sei denn, dies ist zur Erfüllung gesetzlicher Verpflichtungen zwingend erforderlich.",
+  privacy_h4: "4. Datenaufbewahrung",
+  privacy_p4: "Ihre Daten werden nur so lange gespeichert, wie es für den Zweck, für den sie erhoben wurden, erforderlich ist (z. B. bis zum Datum Ihrer Reservierung oder zum Abschluss Ihrer Kontaktanfrage).",
+  privacy_h5: "5. Ihre Rechte",
+  privacy_p5: "Gemäß der DSGVO haben Sie das Recht, Auskunft über Ihre personenbezogenen Daten sowie deren Berichtigung oder Löschung zu verlangen. Um diese Rechte auszuüben, kontaktieren Sie uns bitte telefonisch unter 296 442 631 oder persönlich an unserer Adresse: Rua do Ramal 1, 9625-510 São Brás, Azoren.",
+  privacy_h6: "6. Änderungen dieser Richtlinie",
+  privacy_p6: "Wir behalten uns das Recht vor, diese Datenschutzrichtlinie bei Bedarf zu aktualisieren. Wir empfehlen, diese Seite regelmäßig zu überprüfen.",
+
+  // Termos
+  terms_title: "Nutzungsbedingungen",
+  terms_intro_1: "Willkommen auf der Website von ",
+  terms_intro_2: ". Durch den Zugriff auf diese Website und deren Nutzung stimmen Sie den folgenden Bedingungen zu.",
+  terms_h1: "1. Zweck der Website",
+  terms_p1: "Diese Website hat ausschließlich informativen Charakter und dient dazu, unseren Raum, unser Menü, unsere Öffnungszeiten, unseren Standort und unsere Kontakt-/Reservierungsmethoden vorzustellen.",
+  terms_h2: "2. Menüinformationen und Preise",
+  terms_p2: "Wir bemühen uns nach Kräften, sicherzustellen, dass die auf der Website präsentierten Informationen aktuell sind. Preise, Gerichte und Produktverfügbarkeit (insbesondere bei frischem Fisch und Meeresfrüchten) können jedoch ohne vorherige Ankündigung je nach Tagesmarkt und Saison Änderungen unterliegen. Die in der Galerie gezeigten Bilder dienen nur zur Veranschaulichung.",
+  terms_h3: "3. Geistiges Eigentum",
+  terms_p3: "Alle Inhalte dieser Website, einschließlich Texte, Logos, Grafiken und Bilder, sind Eigentum von Cantinho do Cais oder für unsere Nutzung lizenziert und durch das Urheberrecht geschützt. Die Vervielfältigung, Änderung oder Verbreitung jeglicher Inhalte ohne vorherige Genehmigung ist strengstens untersagt.",
+  terms_h4: "4. Reservierungen",
+  terms_p4: "Alle Tischreservierungen müssen ausschließlich durch direkten telefonischen Kontakt mit dem Restaurant erfolgen und unterliegen der Bestätigung der Verfügbarkeit.",
+  terms_h5: "5. Haftungsbeschränkung",
+  terms_p5: "Cantinho do Cais haftet nicht für Schäden oder technische Probleme, die sich aus der Nutzung dieser Website oder externer Links zu anderen Plattformen (wie dem elektronischen Beschwerdebuch) ergeben.",
+  terms_h6: "6. Kontakte",
+  terms_p6: "Bei Fragen zu diesen Nutzungsbedingungen kontaktieren Sie uns bitte telefonisch unter 296 442 631 oder besuchen Sie uns in der Rua do Ramal 1, 9625-510 São Brás."
 };
 
 export default translation;

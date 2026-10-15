@@ -1,6 +1,7 @@
 const translation = {
   // Nav
   nav_home: "Home",
+  nav_back_home: "Back to Home",
   nav_about: "About",
   nav_menu: "Menu",
   nav_gallery: "Gallery",
@@ -59,6 +60,50 @@ const translation = {
   menu_price_vegetarian: "€7.50",
   menu_price_kids: "€6.50",
   menu_price_desserts: "€1.20",
+  
+  // Price List & Drinks
+  menu_suggestion_question: "Did you like our suggestions?",
+  menu_full_price_list: "See Full Price List & Wine Menu",
+  menu_section_food: "Food",
+  menu_section_drinks: "Drinks",
+  menu_cat_vines: "Wines",
+  menu_cat_reds: "Reds",
+  menu_cat_whites: "Whites",
+  menu_cat_greens_alvarinhos: "Green & Alvarinho Wines",
+  menu_cat_roses: "Rosés",
+  menu_cat_sparkling: "Sparkling Wines",
+  menu_cat_brewery: "Brewery & Beers",
+  menu_cat_águas: "Waters",
+  menu_cat_sumos: "Juices",
+  menu_cat_licores: "Liqueurs",
+  menu_cat_aguardentes: "Spirits & Aguardentes",
+  menu_cat_brandys: "Brandies",
+  menu_cat_whiskys: "Whiskys",
+
+  // Brewery Items Descriptions / Translations
+  cerveja_fino: "Draft Beer (small glass)",
+  cerveja_tulipa: "Draft Beer (large glass / Tulip)",
+  cerveja_caneca: "Beer Mug",
+  cerveja_garrafa: "Bottle",
+  cerveja_panache: "Panaché (beer mixed with Sprite)",
+  cerveja_caldeado_cerveja: "Caldeado with beer (beer and wine mix)",
+  cerveja_caldeado_vinho: "Caldeado with wine (wine and beer mix)",
+
+  // Waters (EN)
+  agua_sem_gas: "Still Water",
+  agua_com_gas: "Sparkling Water",
+  agua_tonica: "Tonic Water",
+
+  // Shots / Riscos (EN)
+  bebida_risco_licor: "Liqueur Shot",
+  bebida_risco_brandy: "Brandy Shot",
+  bebida_risco_whisky: "New Whisky Shot",
+
+  // Wine Regions
+  regiao_alentejo: "Alentejo",
+  regiao_douro: "Douro",
+  regiao_dão: "Dão",
+  regiao_outras_regiões: "Other Regions",
 
   // Modals
   modal_close: "Close",
@@ -158,6 +203,7 @@ const translation = {
   footer_legal_title: "Legal",
   footer_privacy: "Privacy Policy",
   footer_terms: "Terms of Use",
+  footer_cookies: "Cookies Policy",
   footer_copyright: "© 2026 Cantinho do Cais. All rights reserved.",
   footer_developed_by: "Developed by Ponto Zero Apps",
   footer_newsletter_title: "News & Promotions",
@@ -166,6 +212,65 @@ const translation = {
   footer_newsletter_cta: "Subscribe",
   footer_made_with: "Made with",
   footer_in: "in the Azores",
+  footer_complaints: "Complaints Book",
+
+  // --- PÁGINAS LEGAIS (LEGAL PAGES) ---
+
+  // Cookies
+  cookies_title: "Cookies Policy",
+  cookies_intro_1: "The ",
+  cookies_intro_2: " website uses cookies to ensure we provide you with the best browsing experience.",
+  cookies_h1: "1. What are Cookies?",
+  cookies_p1: "Cookies are small text files saved on your computer or mobile device through your web browser. These files allow the website to \"remember\" your actions and preferences (such as your chosen language) over a period of time.",
+  cookies_h2: "2. What Cookies do we use?",
+  cookies_p2_1: "Our website only uses ",
+  cookies_p2_2: " and ",
+  cookies_p2_strong1: "Strictly Necessary Cookies",
+  cookies_p2_strong2: "Functional Cookies",
+  cookies_li1_strong: "Language Cookies:",
+  cookies_li1_text: " Used to remember the language (Portuguese, English, or German) you have chosen to browse the site, so you do not have to select it again every time you visit a new page.",
+  cookies_li2_strong: "Performance/Analytics Cookies:",
+  cookies_li2_text: " We use anonymous analytical tools that do not collect personal data (do not track IP or identify the user), serving only to count visits and improve site performance.",
+  cookies_p3: "We do not use targeted advertising or third-party marketing cookies.",
+  cookies_h3: "3. How to Manage Cookies?",
+  cookies_p4: "You can block or delete cookies in your browser settings at any time. However, by disabling cookies, some website functionalities (such as language memory) may no longer function correctly. For more information on how to manage cookies, please refer to the \"Help\" section of your browser.",
+
+  // Privacidade
+  privacy_title: "Privacy Policy",
+  privacy_intro_1: "",
+  privacy_intro_2: " respects the privacy of all users of its website and is committed to protecting the personal information that each user decides to share.",
+  privacy_h1: "1. Data Collection",
+  privacy_p1: "When browsing our website, we do not collect personal information automatically. The only personal data we have access to are those you voluntarily provide when contacting us by phone (such as name, phone number, and reservation details).",
+  privacy_h2: "2. Data Usage",
+  privacy_p2: "The data provided will be used exclusively to:",
+  privacy_li1: "Respond to requests for information or contact.",
+  privacy_li2: "Process and manage table reservation requests.",
+  privacy_li3: "Improve the user experience in our space.",
+  privacy_h3: "3. Data Sharing",
+  privacy_p3: "Cantinho do Cais does not sell, rent, or share your personal data with third parties, except when strictly necessary to comply with legal obligations.",
+  privacy_h4: "4. Data Retention",
+  privacy_p4: "Your data will be kept only for the time necessary for the purpose for which they were collected (for example, until the date of your reservation or completion of your contact request).",
+  privacy_h5: "5. Your Rights",
+  privacy_p5: "Under the GDPR, you have the right to request access to, rectification, or erasure of your personal data. To exercise these rights, please contact us by phone at 296 442 631 or in person at our address: Rua do Ramal 1, 9625-510 São Brás, Azores.",
+  privacy_h6: "6. Changes to this Policy",
+  privacy_p6: "We reserve the right to update this Privacy Policy whenever necessary. We recommend periodically checking this page.",
+
+  // Termos
+  terms_title: "Terms of Use",
+  terms_intro_1: "Welcome to the ",
+  terms_intro_2: " website. By accessing and using this website, you agree to comply with the following terms and conditions.",
+  terms_h1: "1. Website Purpose",
+  terms_p1: "This website is strictly informative, intended to present our space, menu, opening hours, location, and contact/reservation methods.",
+  terms_h2: "2. Menu Information and Prices",
+  terms_p2: "We make every effort to ensure that the information presented on the website is up to date. However, prices, dishes, and product availability (especially fresh fish and seafood) are subject to change without prior notice, depending on the daily market and season. The images shown in the gallery are for illustrative purposes only.",
+  terms_h3: "3. Intellectual Property",
+  terms_p3: "All content on this website, including texts, logos, graphics, and images, is the property of Cantinho do Cais or licensed for our use, and is protected by copyright laws. Reproduction, modification, or distribution of any content without prior authorization is strictly prohibited.",
+  terms_h4: "4. Reservations",
+  terms_p4: "All table reservations must be made exclusively by direct telephone contact to the restaurant, subject to availability confirmation.",
+  terms_h5: "5. Limitation of Liability",
+  terms_p5: "Cantinho do Cais is not responsible for any damages or technical issues resulting from the use of this website or external links to other platforms (such as the Electronic Complaints Book).",
+  terms_h6: "6. Contacts",
+  terms_p6: "For any questions regarding these Terms of Use, please contact us by phone at 296 442 631 or visit us at Rua do Ramal 1, 9625-510 São Brás."
 };
 
 export default translation;

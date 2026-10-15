@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom"; // Import necessário
 import { menuCategories } from "@/mocks/menu";
 import StartersModal from "./StartersModal";
 import FishModal from "./FishModal";
@@ -119,6 +120,26 @@ export default function MenuSection() {
           <i className="ri-restaurant-line text-amber-600 text-xl" />
           <div className="h-px flex-1 max-w-xs bg-stone-200" />
         </div>
+
+        {/* =========================================================
+            MENU PREÇÁRIO OCULTO
+            Para mostrar o botão do preçário quando o cliente comprar, 
+            basta mudar o "false" na linha abaixo para "true".
+            ========================================================= */}
+        {false && (
+          <div className="reveal mt-12 text-center" style={{ opacity: 0, transform: "translateY(30px)", transition: "opacity 0.7s ease, transform 0.7s ease" }}>
+            <p className="text-stone-600 mb-6 italic font-serif">
+              {t("menu_suggestion_question")}
+            </p>
+            <Link
+              to="/precario"
+              className="inline-flex items-center gap-2 bg-transparent border border-stone-300 text-stone-700 hover:border-amber-600 hover:text-amber-700 font-semibold px-8 py-4 rounded-full transition-all duration-300"
+            >
+              <i className="ri-file-list-3-line" />
+              {t("menu_full_price_list")}
+            </Link>
+          </div>
+        )}
       </div>
     </section>
   );

@@ -1,0 +1,16 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Production / Build output
+dist
+out
+
+# Environment variables
+.env
+.env.local
+
+# IDE files
+.DS_Store
+.vscode/

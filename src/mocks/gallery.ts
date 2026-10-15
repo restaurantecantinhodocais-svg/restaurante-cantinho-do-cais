@@ -1,7 +1,7 @@
 export const galleryImages = [
   {
     id: 1,
-    src: "/fotos-galeria/sr-jorge-galeria.png",
+    src: "/fotos-galeria/sr-jorge-galeria.webp",
     alt_pt: "Sr. Jorge a servir na mesa",
     alt_en: "Mr. Jorge serving at the table",
     alt_de: "Herr Jorge beim Servieren am Tisch",
@@ -9,7 +9,7 @@ export const galleryImages = [
   },
   {
     id: 2,
-    src: "/fotos-galeria/sala-refeicoes-galeria.png",
+    src: "/fotos-galeria/sala-refeicoes-galeria.webp",
     alt_pt: "Sala de refeições do restaurante",
     alt_en: "Restaurant dining room",
     alt_de: "Speisesaal des Restaurants",
@@ -17,7 +17,7 @@ export const galleryImages = [
   },
   {
     id: 3,
-    src: "/fotos-galeria/igreja-galeria.jpg",
+    src: "/fotos-galeria/igreja-galeria.webp",
     alt_pt: "Vista da aldeia de São Brás, São Miguel",
     alt_en: "View of São Brás village, São Miguel",
     alt_de: "Blick auf das Dorf São Brás, São Miguel",
@@ -25,7 +25,7 @@ export const galleryImages = [
   },
   {
     id: 4,
-    src: "/fotos-galeria/molho-de-peixe-galeria.png",
+    src: "/fotos-galeria/molho-de-peixe-galeria.webp",
     alt_pt: "Molho de peixe do Cantinho do Cais",
     alt_en: "Fish stew from Cantinho do Cais",
     alt_de: "Fischbrühe vom Cantinho do Cais",
@@ -33,7 +33,7 @@ export const galleryImages = [
   },
   {
     id: 5,
-    src: "/fotos-galeria/pratos-variados-galeria.png",
+    src: "/fotos-galeria/pratos-variados-galeria.webp",
     alt_pt: "Mesa com pratos variados do restaurante",
     alt_en: "Table with various restaurant dishes",
     alt_de: "Tisch mit verschiedenen Restaurantgerichten",
@@ -41,7 +41,7 @@ export const galleryImages = [
   },
   {
     id: 6,
-    src: "/fotos-galeria/bebidas-galeria.png",
+    src: "/fotos-galeria/bebidas-galeria.webp",
     alt_pt: "Bar com seleção de vinhos e bebidas",
     alt_en: "Bar with wine and drinks selection",
     alt_de: "Bar mit Wein- und Getränkeauswahl",
@@ -49,7 +49,7 @@ export const galleryImages = [
   },
   {
     id: 7,
-    src: "/fotos-galeria/polvo-pratos-preixe.png",
+    src: "/fotos-galeria/polvo-pratos-preixe.webp",
     alt_pt: "Polvo grelhado com batatas",
     alt_en: "Grilled octopus with potatoes",
     alt_de: "Gegrillter Oktopus mit Kartoffeln",
@@ -57,7 +57,7 @@ export const galleryImages = [
   },
   {
     id: 8,
-    src: "/fotos-galeria/peixe-grelhado-galeria.png",
+    src: "/fotos-galeria/peixe-grelhado-galeria.webp",
     alt_pt: "Peixe grelhado com acompanhamentos",
     alt_en: "Grilled fish with side dishes",
     alt_de: "Gegrillter Fisch mit Beilagen",
