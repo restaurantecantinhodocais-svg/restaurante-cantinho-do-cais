@@ -65,15 +65,17 @@ export default function Navbar() {
           <a
             href="#hero"
             onClick={(e) => { e.preventDefault(); handleNavClick("#hero"); }}
-            className="flex items-center gap-3 cursor-pointer"
+            className="flex items-center gap-3 cursor-pointer hover:scale-105 transition-transform duration-300"
+            aria-label="Voltar ao início"
           >
             <img
               src="/logo-cantinho-do-cais-sem-fundo.png"
               alt="Cantinho do Cais"
-              className="h-14 w-auto object-contain"
+              className="h-16 w-auto object-contain"
             />
+            {/* Adicionado o nome do restaurante apenas na versão desktop (hidden md:block) */}
             <span
-              className={`font-semibold text-base tracking-wide whitespace-nowrap transition-colors duration-300 ${
+              className={`hidden md:block font-semibold text-base tracking-wide whitespace-nowrap transition-colors duration-300 ${
                 scrolled ? "text-stone-800" : "text-white"
               }`}
               style={{ fontFamily: "'Playfair Display', serif" }}
