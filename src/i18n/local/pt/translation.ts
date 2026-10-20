@@ -199,7 +199,7 @@ const translation = {
 
   // Footer
   footer_tagline: "Cozinha açoriana de sabores autênticos em São Brás",
-  footer_nav_title: "Navigation",
+  footer_nav_title: "Acesso Rápido",
   footer_info_title: "Informações",
   footer_legal_title: "Legal",
   footer_privacy: "Política de Privacidade",

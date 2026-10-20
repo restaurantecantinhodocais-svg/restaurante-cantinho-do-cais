@@ -198,7 +198,7 @@ const translation = {
 
   // Footer
   footer_tagline: "Azorean cuisine with authentic flavours in São Brás",
-  footer_nav_title: "Navigation",
+  footer_nav_title: "Quick Links",
   footer_info_title: "Information",
   footer_legal_title: "Legal",
   footer_privacy: "Privacy Policy",
