@@ -91,7 +91,7 @@ export default function HeroSection() {
             BLOCO INFERIOR: Idiomas e CTAs
             Empurrado para BAIXO no mobile (mt-32)
             ========================================= */}
-        <div className="mt-40 md:mt-0">
+        <div className="mt-42 md:mt-0">
           {/* Language Buttons — visible above CTAs */}
           <div className="flex items-center justify-center gap-2 mb-6">
             {LANGUAGES.map((lang) => (
