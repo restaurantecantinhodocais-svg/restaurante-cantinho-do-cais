@@ -64,7 +64,7 @@ export default function HeroSection() {
             BLOCO SUPERIOR: Título, Data e Texto
             Puxado para CIMA no mobile (-mt-24)
             ========================================= */}
-        <div className="-mt-16 md:mt-0">
+        <div className="-mt-18 md:mt-0">
           {/* Title */}
           <h1 className="font-serif text-white leading-none mb-3">
             <span className="block text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold tracking-tight">
@@ -91,7 +91,7 @@ export default function HeroSection() {
             BLOCO INFERIOR: Idiomas e CTAs
             Empurrado para BAIXO no mobile (mt-32)
             ========================================= */}
-        <div className="mt-36 md:mt-0">
+        <div className="mt-40 md:mt-0">
           {/* Language Buttons — visible above CTAs */}
           <div className="flex items-center justify-center gap-2 mb-6">
             {LANGUAGES.map((lang) => (
